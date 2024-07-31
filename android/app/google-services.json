@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "747843037341",
+    "project_id": "jsc-ok123",
+    "storage_bucket": "jsc-ok123.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:747843037341:android:0b994ad72b120a5ddb0c74",
+        "android_client_info": {
+          "package_name": "com.jsc.barbershop"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCO1byQMfIaz6vxLtVqdJYfKebwIcK4XmU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
