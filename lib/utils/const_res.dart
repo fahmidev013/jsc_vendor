@@ -4,8 +4,8 @@ class ConstRes {
   // static const String itemBaseUrl =
   //     'http://192.168.0.116/cutfx_backend/public/storage/';
 
-  static const String baseUrl = 'http://localhost:8000/api/';
-  static const String itemBaseUrl = 'http://localhost:8000/public/storage/';
+  static const String baseUrl = 'http://10.0.2.2:8000/api/';
+  static const String itemBaseUrl = 'http://10.0.2.2:8000/public/storage/';
   static const String password = 'password';
   static const String salonRegistration = '${baseUrl}salonRegistration';
   static const String updateSalonDetails = '${baseUrl}updateSalonDetails';
