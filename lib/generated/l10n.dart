@@ -1,6 +1,7 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
+
 import 'intl/messages_all.dart';
 
 // **************************************************************************
@@ -50,120 +51,120 @@ class S {
     return Localizations.of<S>(context, S);
   }
 
-  /// `Cut.FX`
+  /// `JSC`
   String get appName {
     return Intl.message(
-      'Cut.FX',
+      'JSC',
       name: 'appName',
       desc: '',
       args: [],
     );
   }
 
-  /// `Salon`
+  /// `Barbershop`
   String get salon {
     return Intl.message(
-      'Salon',
+      'Barbershop',
       name: 'salon',
       desc: '',
       args: [],
     );
   }
 
-  /// `Premium Beauty Services`
+  /// `Kapster Booking Online`
   String get premiumBeautyServices {
     return Intl.message(
-      'Premium Beauty Services',
+      'Kapster Booking Online',
       name: 'premiumBeautyServices',
       desc: '',
       args: [],
     );
   }
 
-  /// `Register your shop with us and\nhave valuable leads`
+  /// `Daftarkan usaha kapster anda dan\nnikmati keuntungan menjadi mitra`
   String get registerYourShopWithUsAndHaveValuableLeads {
     return Intl.message(
-      'Register your shop with us and\nhave valuable leads',
+      'Daftarkan usaha kapster anda dan\nnikmati keuntungan menjadi mitra',
       name: 'registerYourShopWithUsAndHaveValuableLeads',
       desc: '',
       args: [],
     );
   }
 
-  /// `Continue`
+  /// `Lanjut`
   String get continue_ {
     return Intl.message(
-      'Continue',
+      'Lanjut',
       name: 'continue_',
       desc: '',
       args: [],
     );
   }
 
-  /// `Open`
+  /// `Buka`
   String get open {
     return Intl.message(
-      'Open',
+      'Buka',
       name: 'open',
       desc: '',
       args: [],
     );
   }
 
-  /// `Top Rated`
+  /// `Top Kapster`
   String get topRated {
     return Intl.message(
-      'Top Rated',
+      'Top Kapster',
       name: 'topRated',
       desc: '',
       args: [],
     );
   }
 
-  /// `Closed`
+  /// `Tutup`
   String get closed {
     return Intl.message(
-      'Closed',
+      'Tutup',
       name: 'closed',
       desc: '',
       args: [],
     );
   }
 
-  /// `See all`
+  /// `Lihat semua`
   String get seeAll {
     return Intl.message(
-      'See all',
+      'Lihat semua',
       name: 'seeAll',
       desc: '',
       args: [],
     );
   }
 
-  /// `Sign in to Continue`
+  /// `Masuk`
   String get signInToContinue {
     return Intl.message(
-      'Sign in to Continue',
+      'Masuk',
       name: 'signInToContinue',
       desc: '',
       args: [],
     );
   }
 
-  /// `Find and book Hair Cut, Massage, Spa,\nWaxing, Coloring services anytime.`
+  /// `Cari dan booking jasa kapster,\nkapanpun.`
   String get findAndBookHairCutMassageSpaWaxingColoringServicesAnytime {
     return Intl.message(
-      'Find and book Hair Cut, Massage, Spa,\nWaxing, Coloring services anytime.',
+      'Cari dan booking jasa kapster,\nkapanpun.',
       name: 'findAndBookHairCutMassageSpaWaxingColoringServicesAnytime',
       desc: '',
       args: [],
     );
   }
 
-  /// `Email Address`
+  /// `Alamat Email`
   String get emailAddress {
     return Intl.message(
-      'Email Address',
+      'Alamat Email',
       name: 'emailAddress',
       desc: '',
       args: [],
@@ -180,40 +181,40 @@ class S {
     );
   }
 
-  /// `Forgot Password?`
+  /// `Lupa Password?`
   String get forgotPassword_ {
     return Intl.message(
-      'Forgot Password?',
+      'Lupa Password?',
       name: 'forgotPassword_',
       desc: '',
       args: [],
     );
   }
 
-  /// `New User? Register Here`
+  /// `Pengguna Baru? Daftar disini`
   String get newUserRegisterHere {
     return Intl.message(
-      'New User? Register Here',
+      'Pengguna Baru? Daftar disini',
       name: 'newUserRegisterHere',
       desc: '',
       args: [],
     );
   }
 
-  /// `Confirm Password`
+  /// `Konfirmasi Password`
   String get confirmPassword {
     return Intl.message(
-      'Confirm Password',
+      'Konfirmasi Password',
       name: 'confirmPassword',
       desc: '',
       args: [],
     );
   }
 
-  /// `Forgot Your Password?`
+  /// `Lupa Password?`
   String get forgotYourPassword {
     return Intl.message(
-      'Forgot Your Password?',
+      'Lupa Password?',
       name: 'forgotYourPassword',
       desc: '',
       args: [],
@@ -232,10 +233,10 @@ class S {
     );
   }
 
-  /// `Registration`
+  /// `Pendaftaran`
   String get registration {
     return Intl.message(
-      'Registration',
+      'Pendaftaran',
       name: 'registration',
       desc: '',
       args: [],
@@ -252,10 +253,10 @@ class S {
     );
   }
 
-  /// `Next`
+  /// `Lanjut`
   String get next {
     return Intl.message(
-      'Next',
+      'Lanjut',
       name: 'next',
       desc: '',
       args: [],
@@ -272,10 +273,10 @@ class S {
     );
   }
 
-  /// `Purchase`
+  /// `Pembelian`
   String get purchase {
     return Intl.message(
-      'Purchase',
+      'Pembelian',
       name: 'purchase',
       desc: '',
       args: [],
@@ -292,10 +293,10 @@ class S {
     );
   }
 
-  /// `Refund`
+  /// `Pengembalian Dana`
   String get refund {
     return Intl.message(
-      'Refund',
+      'Pengembalian Dana',
       name: 'refund',
       desc: '',
       args: [],
@@ -372,30 +373,30 @@ class S {
     );
   }
 
-  /// `Salon Owner’s Name`
+  /// `Nama Kapster`
   String get salonOwnerName {
     return Intl.message(
-      'Salon Owner’s Name',
+      'Nama Kapster',
       name: 'salonOwnerName',
       desc: '',
       args: [],
     );
   }
 
-  /// `Salon Name`
+  /// `Nama Tempat Kapster`
   String get salonName {
     return Intl.message(
-      'Salon Name',
+      'Nama Tempat Kapster',
       name: 'salonName',
       desc: '',
       args: [],
     );
   }
 
-  /// `Owner photo`
+  /// `Foto Kapster`
   String get ownerPhoto {
     return Intl.message(
-      'Owner photo',
+      'Foto Kapster',
       name: 'ownerPhoto',
       desc: '',
       args: [],
@@ -414,40 +415,40 @@ class S {
     );
   }
 
-  /// `About Salon`
+  /// `Tentang Kapster`
   String get aboutSalon {
     return Intl.message(
-      'About Salon',
+      'Tentang Kapster',
       name: 'aboutSalon',
       desc: '',
       args: [],
     );
   }
 
-  /// `Salon Address`
+  /// `Alamat Kapster`
   String get salonAddress {
     return Intl.message(
-      'Salon Address',
+      'Alamat Kapster',
       name: 'salonAddress',
       desc: '',
       args: [],
     );
   }
 
-  /// `Salon Phone`
+  /// `Telpon Kapster`
   String get salonPhone {
     return Intl.message(
-      'Salon Phone',
+      'Telpon Kapster',
       name: 'salonPhone',
       desc: '',
       args: [],
     );
   }
 
-  /// `Salon Location`
+  /// `Lokasi Kapster`
   String get salonLocation {
     return Intl.message(
-      'Salon Location',
+      'Lokasi Kapster',
       name: 'salonLocation',
       desc: '',
       args: [],
@@ -474,30 +475,30 @@ class S {
     );
   }
 
-  /// `Monday - Friday`
+  /// `Senin - Jumat`
   String get mondayFriday {
     return Intl.message(
-      'Monday - Friday',
+      'Senin - Jumat',
       name: 'mondayFriday',
       desc: '',
       args: [],
     );
   }
 
-  /// `Saturday & Sunday`
+  /// `Sabtu & Minggu`
   String get saturdaySunday {
     return Intl.message(
-      'Saturday & Sunday',
+      'Sabtu & Minggu',
       name: 'saturdaySunday',
       desc: '',
       args: [],
     );
   }
 
-  /// `To`
+  /// `Kepada`
   String get to {
     return Intl.message(
-      'To',
+      'Kepada',
       name: 'to',
       desc: '',
       args: [],
@@ -524,20 +525,20 @@ class S {
     );
   }
 
-  /// `Male`
+  /// `Laki-laki`
   String get male {
     return Intl.message(
-      'Male',
+      'Laki-laki',
       name: 'male',
       desc: '',
       args: [],
     );
   }
 
-  /// `Female`
+  /// `Perempuan`
   String get female {
     return Intl.message(
-      'Female',
+      'Perempuan',
       name: 'female',
       desc: '',
       args: [],

@@ -56,7 +56,7 @@
         <!-- Branch init -->
         <meta-data
             android:name="io.branch.sdk.BranchKey"
-            android:value="---------------" />
+            android:value="key_live_gxaJO1ioCUxmz33uxplizkoixCnrEcne" />
         <meta-data
             android:name="io.branch.sdk.BranchKey.test"
             android:value="key_test_hlxrWC5Zx16DkYmWu4AHiimdqugRYMr" />

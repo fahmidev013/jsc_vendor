@@ -23,7 +23,7 @@ class MessageLookup extends MessageLookupByLibrary {
   final messages = _notInlinedMessages(_notInlinedMessages);
 
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
-        "aboutSalon": MessageLookupByLibrary.simpleMessage("About Salon"),
+        "aboutSalon": MessageLookupByLibrary.simpleMessage("Tentang Kapster"),
         "aboutService": MessageLookupByLibrary.simpleMessage("About Service"),
         "accept": MessageLookupByLibrary.simpleMessage("Accept"),
         "acceptBooking": MessageLookupByLibrary.simpleMessage("Accept Booking"),
@@ -38,7 +38,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "addService": MessageLookupByLibrary.simpleMessage("Add Service"),
         "addSlot": MessageLookupByLibrary.simpleMessage("Add Slot"),
         "addStaff": MessageLookupByLibrary.simpleMessage("Add Staff"),
-        "appName": MessageLookupByLibrary.simpleMessage("Cut.FX"),
+        "appName": MessageLookupByLibrary.simpleMessage("JSC"),
         "appointments": MessageLookupByLibrary.simpleMessage("Appointments"),
         "apr": MessageLookupByLibrary.simpleMessage("Apr"),
         "april": MessageLookupByLibrary.simpleMessage("April"),
@@ -71,7 +71,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Change Password"),
         "clickToFetchLocation":
             MessageLookupByLibrary.simpleMessage("Click To Fetch Location"),
-        "closed": MessageLookupByLibrary.simpleMessage("Closed"),
+        "closed": MessageLookupByLibrary.simpleMessage("Tutup"),
         "commission": MessageLookupByLibrary.simpleMessage("Commission"),
         "complete": MessageLookupByLibrary.simpleMessage("Complete"),
         "completeBooking":
@@ -79,10 +79,10 @@ class MessageLookup extends MessageLookupByLibrary {
         "completedOrders":
             MessageLookupByLibrary.simpleMessage("Completed Orders"),
         "confirmPassword":
-            MessageLookupByLibrary.simpleMessage("Confirm Password"),
+            MessageLookupByLibrary.simpleMessage("Konfirmasi Password"),
         "contactDetail": MessageLookupByLibrary.simpleMessage("Contact Number"),
         "contactUs": MessageLookupByLibrary.simpleMessage("Contact Us"),
-        "continue_": MessageLookupByLibrary.simpleMessage("Continue"),
+        "continue_": MessageLookupByLibrary.simpleMessage("Lanjut"),
         "couponDiscount":
             MessageLookupByLibrary.simpleMessage("Coupon Discount"),
         "customerHasChosenToServeAtDifferentLocationAsMentioned":
@@ -134,7 +134,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "editSalonDetails":
             MessageLookupByLibrary.simpleMessage("Edit Salon Details"),
         "editStaff": MessageLookupByLibrary.simpleMessage("Edit Staff"),
-        "emailAddress": MessageLookupByLibrary.simpleMessage("Email Address"),
+        "emailAddress": MessageLookupByLibrary.simpleMessage("Alamat Email"),
         "enterYourBankDetails":
             MessageLookupByLibrary.simpleMessage("Enter Your Bank Details"),
         "enterYourDetailsAndCompleteYourRegistration":
@@ -145,17 +145,17 @@ class MessageLookup extends MessageLookupByLibrary {
                 "Enter your email address, on which we will\nsend you the link to reset the password."),
         "feb": MessageLookupByLibrary.simpleMessage("Feb"),
         "february": MessageLookupByLibrary.simpleMessage("February"),
-        "female": MessageLookupByLibrary.simpleMessage("Female"),
+        "female": MessageLookupByLibrary.simpleMessage("Perempuan"),
         "findAndBookHairCutMassageSpaWaxingColoringServicesAnytime":
             MessageLookupByLibrary.simpleMessage(
-                "Find and book Hair Cut, Massage, Spa,\nWaxing, Coloring services anytime."),
+                "Cari dan booking jasa kapster,\nkapanpun."),
         "five": MessageLookupByLibrary.simpleMessage("5"),
         "forQuestionsAndQueries":
             MessageLookupByLibrary.simpleMessage("For questions and queries"),
         "forgotPassword_":
-            MessageLookupByLibrary.simpleMessage("Forgot Password?"),
+            MessageLookupByLibrary.simpleMessage("Lupa Password?"),
         "forgotYourPassword":
-            MessageLookupByLibrary.simpleMessage("Forgot Your Password?"),
+            MessageLookupByLibrary.simpleMessage("Lupa Password?"),
         "four": MessageLookupByLibrary.simpleMessage("4"),
         "gallery": MessageLookupByLibrary.simpleMessage("Gallery"),
         "galleryDes": MessageLookupByLibrary.simpleMessage(
@@ -199,7 +199,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "logOut": MessageLookupByLibrary.simpleMessage("Log Out"),
         "logoutDec": MessageLookupByLibrary.simpleMessage(
             "Do you really want to logout ?"),
-        "male": MessageLookupByLibrary.simpleMessage("Male"),
+        "male": MessageLookupByLibrary.simpleMessage("Laki-laki"),
         "manageAwards": MessageLookupByLibrary.simpleMessage("Manage Awards"),
         "manageServices":
             MessageLookupByLibrary.simpleMessage("Manage Services"),
@@ -212,13 +212,13 @@ class MessageLookup extends MessageLookupByLibrary {
         "messages": MessageLookupByLibrary.simpleMessage("Messages"),
         "mobileNumber": MessageLookupByLibrary.simpleMessage("Mobile number"),
         "monday": MessageLookupByLibrary.simpleMessage("Monday"),
-        "mondayFriday": MessageLookupByLibrary.simpleMessage("Monday - Friday"),
+        "mondayFriday": MessageLookupByLibrary.simpleMessage("Senin - Jumat"),
         "mySalon": MessageLookupByLibrary.simpleMessage("My Salon"),
         "navigate": MessageLookupByLibrary.simpleMessage("Navigate"),
         "newPassword": MessageLookupByLibrary.simpleMessage("New Password"),
-        "newUserRegisterHere":
-            MessageLookupByLibrary.simpleMessage("New User? Register Here"),
-        "next": MessageLookupByLibrary.simpleMessage("Next"),
+        "newUserRegisterHere": MessageLookupByLibrary.simpleMessage(
+            "Pengguna Baru? Daftar disini"),
+        "next": MessageLookupByLibrary.simpleMessage("Lanjut"),
         "notifications": MessageLookupByLibrary.simpleMessage("Notifications"),
         "nov": MessageLookupByLibrary.simpleMessage("Nov"),
         "november": MessageLookupByLibrary.simpleMessage("November"),
@@ -231,10 +231,10 @@ class MessageLookup extends MessageLookupByLibrary {
         "oldPasswordIsWrong":
             MessageLookupByLibrary.simpleMessage("Old Password Is Wrong"),
         "one": MessageLookupByLibrary.simpleMessage("1"),
-        "open": MessageLookupByLibrary.simpleMessage("Open"),
+        "open": MessageLookupByLibrary.simpleMessage("Buka"),
         "orderHistory": MessageLookupByLibrary.simpleMessage("Order History"),
         "orderRefund": MessageLookupByLibrary.simpleMessage("OrderRefund"),
-        "ownerPhoto": MessageLookupByLibrary.simpleMessage("Owner photo"),
+        "ownerPhoto": MessageLookupByLibrary.simpleMessage("Foto Kapster"),
         "password": MessageLookupByLibrary.simpleMessage("Password"),
         "passwordDoesNotMatch":
             MessageLookupByLibrary.simpleMessage("Password does not match"),
@@ -331,11 +331,11 @@ class MessageLookup extends MessageLookupByLibrary {
         "pleaseenteroldpassword":
             MessageLookupByLibrary.simpleMessage("Please Enter Old Password"),
         "premiumBeautyServices":
-            MessageLookupByLibrary.simpleMessage("Premium Beauty Services"),
+            MessageLookupByLibrary.simpleMessage("Kapster Booking Online"),
         "prepaid": MessageLookupByLibrary.simpleMessage("Pre-Paid"),
         "price": MessageLookupByLibrary.simpleMessage("Price"),
         "privacyPolicy": MessageLookupByLibrary.simpleMessage("Privacy Policy"),
-        "purchase": MessageLookupByLibrary.simpleMessage("Purchase"),
+        "purchase": MessageLookupByLibrary.simpleMessage("Pembelian"),
         "pushNotification":
             MessageLookupByLibrary.simpleMessage("Push Notification"),
         "qRScan": MessageLookupByLibrary.simpleMessage("QR Scan"),
@@ -343,35 +343,35 @@ class MessageLookup extends MessageLookupByLibrary {
         "ratings": MessageLookupByLibrary.simpleMessage("Ratings"),
         "reEnterAccountNumber":
             MessageLookupByLibrary.simpleMessage("Re-Enter Account Number"),
-        "refund": MessageLookupByLibrary.simpleMessage("Refund"),
+        "refund": MessageLookupByLibrary.simpleMessage("Pengembalian Dana"),
         "registerYourShopWithUsAndHaveValuableLeads":
             MessageLookupByLibrary.simpleMessage(
-                "Register your shop with us and\nhave valuable leads"),
+                "Daftarkan usaha kapster anda dan\nnikmati keuntungan menjadi mitra"),
         "registerYourShopWithUsFindCustomersManageAppointmentsAnd":
             MessageLookupByLibrary.simpleMessage(
                 "Register your shop with us, find customers, manage appointments and grow business."),
-        "registration": MessageLookupByLibrary.simpleMessage("Registration"),
+        "registration": MessageLookupByLibrary.simpleMessage("Pendaftaran"),
         "requestID": MessageLookupByLibrary.simpleMessage("Request ID"),
         "requests": MessageLookupByLibrary.simpleMessage("Requests"),
         "reviews": MessageLookupByLibrary.simpleMessage("Reviews"),
-        "salon": MessageLookupByLibrary.simpleMessage("Salon"),
-        "salonAddress": MessageLookupByLibrary.simpleMessage("Salon Address"),
+        "salon": MessageLookupByLibrary.simpleMessage("Barbershop"),
+        "salonAddress": MessageLookupByLibrary.simpleMessage("Alamat Kapster"),
         "salonImages": MessageLookupByLibrary.simpleMessage("Salon Images"),
-        "salonLocation": MessageLookupByLibrary.simpleMessage("Salon Location"),
-        "salonName": MessageLookupByLibrary.simpleMessage("Salon Name"),
-        "salonOwnerName":
-            MessageLookupByLibrary.simpleMessage("Salon Owner’s Name"),
+        "salonLocation": MessageLookupByLibrary.simpleMessage("Lokasi Kapster"),
+        "salonName":
+            MessageLookupByLibrary.simpleMessage("Nama Tempat Kapster"),
+        "salonOwnerName": MessageLookupByLibrary.simpleMessage("Nama Kapster"),
         "salonOwnerNotice": MessageLookupByLibrary.simpleMessage(
             "All of the details you have submitted has been received by us. we will check and update you on this once we have an update for you.\n\nIt will take around 3 to 4 business days to check and verify your profile.\n\nWrite us on below details if you have any questions and queries."),
-        "salonPhone": MessageLookupByLibrary.simpleMessage("Salon Phone"),
+        "salonPhone": MessageLookupByLibrary.simpleMessage("Telpon Kapster"),
         "salonSettings": MessageLookupByLibrary.simpleMessage("Salon Settings"),
         "saturdaySunday":
-            MessageLookupByLibrary.simpleMessage("Saturday & Sunday"),
+            MessageLookupByLibrary.simpleMessage("Sabtu & Minggu"),
         "scanTheBookingQRToGetTheDetailsQuickly":
             MessageLookupByLibrary.simpleMessage(
                 "Scan the booking QR to get the details\nquickly"),
         "search": MessageLookupByLibrary.simpleMessage("Search"),
-        "seeAll": MessageLookupByLibrary.simpleMessage("See all"),
+        "seeAll": MessageLookupByLibrary.simpleMessage("Lihat semua"),
         "selectAnother": MessageLookupByLibrary.simpleMessage("Select Another"),
         "selectCancelledCheque": MessageLookupByLibrary.simpleMessage(
             "Please select cancelled cheque photo."),
@@ -395,8 +395,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "services": MessageLookupByLibrary.simpleMessage("Services"),
         "setAvailabilityOfYourSalon": MessageLookupByLibrary.simpleMessage(
             "Set Availability of your salon"),
-        "signInToContinue":
-            MessageLookupByLibrary.simpleMessage("Sign in to Continue"),
+        "signInToContinue": MessageLookupByLibrary.simpleMessage("Masuk"),
         "six": MessageLookupByLibrary.simpleMessage("6"),
         "slots": MessageLookupByLibrary.simpleMessage("Slots"),
         "staff": MessageLookupByLibrary.simpleMessage("Staff"),
@@ -421,9 +420,9 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Time It Takes (Hours)"),
         "timeItTakesMin":
             MessageLookupByLibrary.simpleMessage("Time It Takes (Minutes)"),
-        "to": MessageLookupByLibrary.simpleMessage("To"),
+        "to": MessageLookupByLibrary.simpleMessage("Kepada"),
         "tooLarge": MessageLookupByLibrary.simpleMessage("Too large..."),
-        "topRated": MessageLookupByLibrary.simpleMessage("Top Rated"),
+        "topRated": MessageLookupByLibrary.simpleMessage("Top Kapster"),
         "totalAmount": MessageLookupByLibrary.simpleMessage("Total Amount"),
         "totalEarning": MessageLookupByLibrary.simpleMessage("Total Earning"),
         "totalOrders": MessageLookupByLibrary.simpleMessage("Total Orders"),
