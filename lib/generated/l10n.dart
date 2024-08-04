@@ -51,20 +51,20 @@ class S {
     return Localizations.of<S>(context, S);
   }
 
-  /// `JSC`
+  /// `JSC Mitra`
   String get appName {
     return Intl.message(
-      'JSC',
+      'JSC Mitra',
       name: 'appName',
       desc: '',
       args: [],
     );
   }
 
-  /// `Barbershop`
+  /// `Kapster`
   String get salon {
     return Intl.message(
-      'Barbershop',
+      'Kapster',
       name: 'salon',
       desc: '',
       args: [],
@@ -221,11 +221,11 @@ class S {
     );
   }
 
-  /// `Enter your email address, on which we will\nsend you the link to reset the password.`
+  /// `Masukkan alamat email, dimana kita akan\nmengirim link untuk reset kata sandi.`
   String
       get enterYourEmailAddressOnWhichWeWillSendYouTheLinkToResetThePassword {
     return Intl.message(
-      'Enter your email address, on which we will\nsend you the link to reset the password.',
+      'Masukkan alamat email, dimana kita akan\nmengirim link untuk reset kata sandi.',
       name:
           'enterYourEmailAddressOnWhichWeWillSendYouTheLinkToResetThePassword',
       desc: '',
@@ -243,10 +243,10 @@ class S {
     );
   }
 
-  /// `Enter your details and complete\nyour registration`
+  /// `Isi dan lengkapi informasi\npendaftaran anda`
   String get enterYourDetailsAndCompleteYourRegistration {
     return Intl.message(
-      'Enter your details and complete\nyour registration',
+      'Isi dan lengkapi informasi\npendaftaran anda',
       name: 'enterYourDetailsAndCompleteYourRegistration',
       desc: '',
       args: [],
@@ -403,11 +403,11 @@ class S {
     );
   }
 
-  /// `Your Face should be visible\ncompletely.\nImage with Specs & Headphones\nwill not be approved.`
+  /// `Wajah harus terlihat\nlengkap.\nGambar telinga tertutup\ntidak akan disetujui.`
   String
       get yourFaceShouldBeVisibleCompletelyImageWithSpecsHeadphonesWillNotBeApproved {
     return Intl.message(
-      'Your Face should be visible\ncompletely.\nImage with Specs & Headphones\nwill not be approved.',
+      'Wajah harus terlihat\nlengkap.\nGambar telinga tertutup\ntidak akan disetujui.',
       name:
           'yourFaceShouldBeVisibleCompletelyImageWithSpecsHeadphonesWillNotBeApproved',
       desc: '',
@@ -675,80 +675,80 @@ class S {
     );
   }
 
-  /// `Bookings`
+  /// `Booking`
   String get bookings {
     return Intl.message(
-      'Bookings',
+      'Booking',
       name: 'bookings',
       desc: '',
       args: [],
     );
   }
 
-  /// `Requests`
+  /// `Permintaan`
   String get requests {
     return Intl.message(
-      'Requests',
+      'Permintaan',
       name: 'requests',
       desc: '',
       args: [],
     );
   }
 
-  /// `Message`
+  /// `Pesan`
   String get message {
     return Intl.message(
-      'Message',
+      'Pesan',
       name: 'message',
       desc: '',
       args: [],
     );
   }
 
-  /// `Notifications`
+  /// `Notifikasi`
   String get notifications {
     return Intl.message(
-      'Notifications',
+      'Notifikasi',
       name: 'notifications',
       desc: '',
       args: [],
     );
   }
 
-  /// `My Salon`
+  /// `Kapster Saya`
   String get mySalon {
     return Intl.message(
-      'My Salon',
+      'Kapster Saya',
       name: 'mySalon',
       desc: '',
       args: [],
     );
   }
 
-  /// `Appointments`
+  /// `Jadwal Tatap muka`
   String get appointments {
     return Intl.message(
-      'Appointments',
+      'Jadwal Tatap muka',
       name: 'appointments',
       desc: '',
       args: [],
     );
   }
 
-  /// `Search`
+  /// `Cari`
   String get search {
     return Intl.message(
-      'Search',
+      'Cari',
       name: 'search',
       desc: '',
       args: [],
     );
   }
 
-  /// `Services`
+  /// `Layanan`
   String get services {
     return Intl.message(
-      'Services',
+      'Layanan',
       name: 'services',
       desc: '',
       args: [],
@@ -765,40 +765,40 @@ class S {
     );
   }
 
-  /// `Call Now`
+  /// `Hubungi Sekarang`
   String get callNow {
     return Intl.message(
-      'Call Now',
+      'Hubungi Sekarang',
       name: 'callNow',
       desc: '',
       args: [],
     );
   }
 
-  /// `Booking Requests`
+  /// `Permintaan Booking`
   String get bookingRequests {
     return Intl.message(
-      'Booking Requests',
+      'Permintaan Booking',
       name: 'bookingRequests',
       desc: '',
       args: [],
     );
   }
 
-  /// `View`
+  /// `Lihat`
   String get view {
     return Intl.message(
-      'View',
+      'Lihat',
       name: 'view',
       desc: '',
       args: [],
     );
   }
 
-  /// `Messages`
+  /// `Pesan`
   String get messages {
     return Intl.message(
-      'Messages',
+      'Pesan',
       name: 'messages',
       desc: '',
       args: [],
@@ -815,10 +815,10 @@ class S {
     );
   }
 
-  /// `Availability`
+  /// `Ketersediaan`
   String get availability {
     return Intl.message(
-      'Availability',
+      'Ketersediaan',
       name: 'availability',
       desc: '',
       args: [],
@@ -865,60 +865,60 @@ class S {
     );
   }
 
-  /// `Details`
+  /// `Informasi`
   String get details {
     return Intl.message(
-      'Details',
+      'Informasi',
       name: 'details',
       desc: '',
       args: [],
     );
   }
 
-  /// `Gallery`
+  /// `Galeri`
   String get gallery {
     return Intl.message(
-      'Gallery',
+      'Galeri',
       name: 'gallery',
       desc: '',
       args: [],
     );
   }
 
-  /// `Reviews`
+  /// `Ulasan`
   String get reviews {
     return Intl.message(
-      'Reviews',
+      'Ulasan',
       name: 'reviews',
       desc: '',
       args: [],
     );
   }
 
-  /// `Awards`
+  /// `Penghargaan`
   String get awards {
     return Intl.message(
-      'Awards',
+      'Penghargaan',
       name: 'awards',
       desc: '',
       args: [],
     );
   }
 
-  /// `Contact Us`
+  /// `Hubungi Kami`
   String get contactUs {
     return Intl.message(
-      'Contact Us',
+      'Hubungi Kami',
       name: 'contactUs',
       desc: '',
       args: [],
     );
   }
 
-  /// `Booking Details`
+  /// `Info Booking`
   String get bookingDetails {
     return Intl.message(
-      'Booking Details',
+      'Info Booking',
       name: 'bookingDetails',
       desc: '',
       args: [],
@@ -1005,20 +1005,20 @@ class S {
     );
   }
 
-  /// `Cancel`
+  /// `Batal`
   String get cancel {
     return Intl.message(
-      'Cancel',
+      'Batal',
       name: 'cancel',
       desc: '',
       args: [],
     );
   }
 
-  /// `Salon Settings`
+  /// `Pengaturan Kapster`
   String get salonSettings {
     return Intl.message(
-      'Salon Settings',
+      'Pengaturan Kapster',
       name: 'salonSettings',
       desc: '',
       args: [],
@@ -1587,10 +1587,10 @@ class S {
     );
   }
 
-  /// `Please enter salon owner name`
+  /// `Masukkan nama pemilik kapster`
   String get pleaseEnterSalonOwnerName {
     return Intl.message(
-      'Please enter salon owner name',
+      'Masukkan nama pemilik kapster',
       name: 'pleaseEnterSalonOwnerName',
       desc: '',
       args: [],
@@ -2407,20 +2407,20 @@ class S {
     );
   }
 
-  /// `Register your shop with us, find customers, manage appointments and grow business.`
+  /// `Daftarkan kapster anda, cari pelanggan, atur jadwal booking dan tingkatkan bisnis anda.`
   String get registerYourShopWithUsFindCustomersManageAppointmentsAnd {
     return Intl.message(
-      'Register your shop with us, find customers, manage appointments and grow business.',
+      'Daftarkan kapster anda, cari pelanggan, atur jadwal booking dan tingkatkan bisnis anda.',
       name: 'registerYourShopWithUsFindCustomersManageAppointmentsAnd',
       desc: '',
       args: [],
     );
   }
 
-  /// `Contact Number`
+  /// `Nomor Kontak`
   String get contactDetail {
     return Intl.message(
-      'Contact Number',
+      'Nomor Kontak',
       name: 'contactDetail',
       desc: '',
       args: [],
@@ -2507,10 +2507,10 @@ class S {
     );
   }
 
-  /// `Monday`
+  /// `Senin`
   String get monday {
     return Intl.message(
-      'Monday',
+      'Senin',
       name: 'monday',
       desc: '',
       args: [],
@@ -2877,10 +2877,10 @@ class S {
     );
   }
 
-  /// `Staff`
+  /// `Staf`
   String get staff {
     return Intl.message(
-      'Staff',
+      'Staf',
       name: 'staff',
       desc: '',
       args: [],

@@ -1,11 +1,11 @@
-import 'package:jsc_barbershop/screens/welcome/welcome_screen.dart';
-import 'package:jsc_barbershop/utils/color_res.dart';
-import 'package:jsc_barbershop/utils/shared_pref.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:get/route_manager.dart';
+import 'package:jsc_barbershop/screens/welcome/welcome_screen.dart';
+import 'package:jsc_barbershop/utils/color_res.dart';
+import 'package:jsc_barbershop/utils/shared_pref.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -34,7 +34,7 @@ class _MyAppState extends State<MyApp> {
       supportedLocales: AppLocalizations.supportedLocales,
       debugShowCheckedModeBanner: false,
       locale: Locale(SharePref.selectedLanguage),
-      title: 'JSC Barber',
+      title: 'JSC Mitra',
       theme: ThemeData(
         scaffoldBackgroundColor: ColorRes.white,
         textTheme: const TextTheme(

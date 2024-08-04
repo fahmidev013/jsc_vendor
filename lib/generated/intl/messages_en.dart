@@ -38,29 +38,29 @@ class MessageLookup extends MessageLookupByLibrary {
         "addService": MessageLookupByLibrary.simpleMessage("Add Service"),
         "addSlot": MessageLookupByLibrary.simpleMessage("Add Slot"),
         "addStaff": MessageLookupByLibrary.simpleMessage("Add Staff"),
-        "appName": MessageLookupByLibrary.simpleMessage("JSC"),
-        "appointments": MessageLookupByLibrary.simpleMessage("Appointments"),
+        "appName": MessageLookupByLibrary.simpleMessage("JSC Mitra"),
+        "appointments":
+            MessageLookupByLibrary.simpleMessage("Jadwal Tatap muka"),
         "apr": MessageLookupByLibrary.simpleMessage("Apr"),
         "april": MessageLookupByLibrary.simpleMessage("April"),
         "aug": MessageLookupByLibrary.simpleMessage("Aug"),
         "august": MessageLookupByLibrary.simpleMessage("August"),
-        "availability": MessageLookupByLibrary.simpleMessage("Availability"),
+        "availability": MessageLookupByLibrary.simpleMessage("Ketersediaan"),
         "awardTitle": MessageLookupByLibrary.simpleMessage("Award Title"),
         "awardedBy": MessageLookupByLibrary.simpleMessage("Awarded By"),
-        "awards": MessageLookupByLibrary.simpleMessage("Awards"),
+        "awards": MessageLookupByLibrary.simpleMessage("Penghargaan"),
         "bankName": MessageLookupByLibrary.simpleMessage("Bank Name"),
         "banned": MessageLookupByLibrary.simpleMessage("Banned"),
         "barberName": MessageLookupByLibrary.simpleMessage("Barber Name"),
-        "bookingDetails":
-            MessageLookupByLibrary.simpleMessage("Booking Details"),
+        "bookingDetails": MessageLookupByLibrary.simpleMessage("Info Booking"),
         "bookingHistory":
             MessageLookupByLibrary.simpleMessage("Booking History"),
         "bookingRequests":
-            MessageLookupByLibrary.simpleMessage("Booking Requests"),
-        "bookings": MessageLookupByLibrary.simpleMessage("Bookings"),
+            MessageLookupByLibrary.simpleMessage("Permintaan Booking"),
+        "bookings": MessageLookupByLibrary.simpleMessage("Booking"),
         "by": MessageLookupByLibrary.simpleMessage("By"),
-        "callNow": MessageLookupByLibrary.simpleMessage("Call Now"),
-        "cancel": MessageLookupByLibrary.simpleMessage("Cancel"),
+        "callNow": MessageLookupByLibrary.simpleMessage("Hubungi Sekarang"),
+        "cancel": MessageLookupByLibrary.simpleMessage("Batal"),
         "cancelledChequePhoto":
             MessageLookupByLibrary.simpleMessage("Cancelled Cheque Photo"),
         "categoriesYouServe":
@@ -80,8 +80,8 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Completed Orders"),
         "confirmPassword":
             MessageLookupByLibrary.simpleMessage("Konfirmasi Password"),
-        "contactDetail": MessageLookupByLibrary.simpleMessage("Contact Number"),
-        "contactUs": MessageLookupByLibrary.simpleMessage("Contact Us"),
+        "contactDetail": MessageLookupByLibrary.simpleMessage("Nomor Kontak"),
+        "contactUs": MessageLookupByLibrary.simpleMessage("Hubungi Kami"),
         "continue_": MessageLookupByLibrary.simpleMessage("Lanjut"),
         "couponDiscount":
             MessageLookupByLibrary.simpleMessage("Coupon Discount"),
@@ -110,7 +110,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "description": MessageLookupByLibrary.simpleMessage("Description"),
         "descriptionOptional":
             MessageLookupByLibrary.simpleMessage("Description (Optional)"),
-        "details": MessageLookupByLibrary.simpleMessage("Details"),
+        "details": MessageLookupByLibrary.simpleMessage("Informasi"),
         "differentLocation":
             MessageLookupByLibrary.simpleMessage("Different Location"),
         "discountOptional":
@@ -139,10 +139,10 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Enter Your Bank Details"),
         "enterYourDetailsAndCompleteYourRegistration":
             MessageLookupByLibrary.simpleMessage(
-                "Enter your details and complete\nyour registration"),
+                "Isi dan lengkapi informasi\npendaftaran anda"),
         "enterYourEmailAddressOnWhichWeWillSendYouTheLinkToResetThePassword":
             MessageLookupByLibrary.simpleMessage(
-                "Enter your email address, on which we will\nsend you the link to reset the password."),
+                "Masukkan alamat email, dimana kita akan\nmengirim link untuk reset kata sandi."),
         "feb": MessageLookupByLibrary.simpleMessage("Feb"),
         "february": MessageLookupByLibrary.simpleMessage("February"),
         "female": MessageLookupByLibrary.simpleMessage("Perempuan"),
@@ -157,7 +157,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "forgotYourPassword":
             MessageLookupByLibrary.simpleMessage("Lupa Password?"),
         "four": MessageLookupByLibrary.simpleMessage("4"),
-        "gallery": MessageLookupByLibrary.simpleMessage("Gallery"),
+        "gallery": MessageLookupByLibrary.simpleMessage("Galeri"),
         "galleryDes": MessageLookupByLibrary.simpleMessage(
             "Please add something to your gallery so that users\ncan see what kind of services you are offering\nand the environment of your salon."),
         "gender": MessageLookupByLibrary.simpleMessage("Gender"),
@@ -208,18 +208,18 @@ class MessageLookup extends MessageLookupByLibrary {
         "march": MessageLookupByLibrary.simpleMessage("March"),
         "markCompleted": MessageLookupByLibrary.simpleMessage("Mark Completed"),
         "may": MessageLookupByLibrary.simpleMessage("May"),
-        "message": MessageLookupByLibrary.simpleMessage("Message"),
-        "messages": MessageLookupByLibrary.simpleMessage("Messages"),
+        "message": MessageLookupByLibrary.simpleMessage("Pesan"),
+        "messages": MessageLookupByLibrary.simpleMessage("Pesan"),
         "mobileNumber": MessageLookupByLibrary.simpleMessage("Mobile number"),
-        "monday": MessageLookupByLibrary.simpleMessage("Monday"),
+        "monday": MessageLookupByLibrary.simpleMessage("Senin"),
         "mondayFriday": MessageLookupByLibrary.simpleMessage("Senin - Jumat"),
-        "mySalon": MessageLookupByLibrary.simpleMessage("My Salon"),
+        "mySalon": MessageLookupByLibrary.simpleMessage("Kapster Saya"),
         "navigate": MessageLookupByLibrary.simpleMessage("Navigate"),
         "newPassword": MessageLookupByLibrary.simpleMessage("New Password"),
         "newUserRegisterHere": MessageLookupByLibrary.simpleMessage(
             "Pengguna Baru? Daftar disini"),
         "next": MessageLookupByLibrary.simpleMessage("Lanjut"),
-        "notifications": MessageLookupByLibrary.simpleMessage("Notifications"),
+        "notifications": MessageLookupByLibrary.simpleMessage("Notifikasi"),
         "nov": MessageLookupByLibrary.simpleMessage("Nov"),
         "november": MessageLookupByLibrary.simpleMessage("November"),
         "oct": MessageLookupByLibrary.simpleMessage("Oct"),
@@ -287,7 +287,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "pleaseEnterSalonName":
             MessageLookupByLibrary.simpleMessage("Please enter salon name"),
         "pleaseEnterSalonOwnerName": MessageLookupByLibrary.simpleMessage(
-            "Please enter salon owner name"),
+            "Masukkan nama pemilik kapster"),
         "pleaseEnterSalonPhone":
             MessageLookupByLibrary.simpleMessage("Please enter salon phone"),
         "pleaseEnterServiceTitle":
@@ -349,12 +349,12 @@ class MessageLookup extends MessageLookupByLibrary {
                 "Daftarkan usaha kapster anda dan\nnikmati keuntungan menjadi mitra"),
         "registerYourShopWithUsFindCustomersManageAppointmentsAnd":
             MessageLookupByLibrary.simpleMessage(
-                "Register your shop with us, find customers, manage appointments and grow business."),
+                "Daftarkan kapster anda, cari pelanggan, atur jadwal booking dan tingkatkan bisnis anda."),
         "registration": MessageLookupByLibrary.simpleMessage("Pendaftaran"),
         "requestID": MessageLookupByLibrary.simpleMessage("Request ID"),
-        "requests": MessageLookupByLibrary.simpleMessage("Requests"),
-        "reviews": MessageLookupByLibrary.simpleMessage("Reviews"),
-        "salon": MessageLookupByLibrary.simpleMessage("Barbershop"),
+        "requests": MessageLookupByLibrary.simpleMessage("Permintaan"),
+        "reviews": MessageLookupByLibrary.simpleMessage("Ulasan"),
+        "salon": MessageLookupByLibrary.simpleMessage("Kapster"),
         "salonAddress": MessageLookupByLibrary.simpleMessage("Alamat Kapster"),
         "salonImages": MessageLookupByLibrary.simpleMessage("Salon Images"),
         "salonLocation": MessageLookupByLibrary.simpleMessage("Lokasi Kapster"),
@@ -364,13 +364,14 @@ class MessageLookup extends MessageLookupByLibrary {
         "salonOwnerNotice": MessageLookupByLibrary.simpleMessage(
             "All of the details you have submitted has been received by us. we will check and update you on this once we have an update for you.\n\nIt will take around 3 to 4 business days to check and verify your profile.\n\nWrite us on below details if you have any questions and queries."),
         "salonPhone": MessageLookupByLibrary.simpleMessage("Telpon Kapster"),
-        "salonSettings": MessageLookupByLibrary.simpleMessage("Salon Settings"),
+        "salonSettings":
+            MessageLookupByLibrary.simpleMessage("Pengaturan Kapster"),
         "saturdaySunday":
             MessageLookupByLibrary.simpleMessage("Sabtu & Minggu"),
         "scanTheBookingQRToGetTheDetailsQuickly":
             MessageLookupByLibrary.simpleMessage(
                 "Scan the booking QR to get the details\nquickly"),
-        "search": MessageLookupByLibrary.simpleMessage("Search"),
+        "search": MessageLookupByLibrary.simpleMessage("Cari"),
         "seeAll": MessageLookupByLibrary.simpleMessage("Lihat semua"),
         "selectAnother": MessageLookupByLibrary.simpleMessage("Select Another"),
         "selectCancelledCheque": MessageLookupByLibrary.simpleMessage(
@@ -392,13 +393,13 @@ class MessageLookup extends MessageLookupByLibrary {
         "serviceLocation":
             MessageLookupByLibrary.simpleMessage("Service Location"),
         "serviceTitle": MessageLookupByLibrary.simpleMessage("Service Title"),
-        "services": MessageLookupByLibrary.simpleMessage("Services"),
+        "services": MessageLookupByLibrary.simpleMessage("Layanan"),
         "setAvailabilityOfYourSalon": MessageLookupByLibrary.simpleMessage(
             "Set Availability of your salon"),
         "signInToContinue": MessageLookupByLibrary.simpleMessage("Masuk"),
         "six": MessageLookupByLibrary.simpleMessage("6"),
         "slots": MessageLookupByLibrary.simpleMessage("Slots"),
-        "staff": MessageLookupByLibrary.simpleMessage("Staff"),
+        "staff": MessageLookupByLibrary.simpleMessage("Staf"),
         "statement": MessageLookupByLibrary.simpleMessage("Statement"),
         "subTotal": MessageLookupByLibrary.simpleMessage("Subtotal"),
         "submissionSuccessful":
@@ -436,7 +437,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("User Already Exist"),
         "vacationMode": MessageLookupByLibrary.simpleMessage("Vacation Mode"),
         "video": MessageLookupByLibrary.simpleMessage("Video?"),
-        "view": MessageLookupByLibrary.simpleMessage("View"),
+        "view": MessageLookupByLibrary.simpleMessage("Lihat"),
         "wallet": MessageLookupByLibrary.simpleMessage("Wallet"),
         "withdraw": MessageLookupByLibrary.simpleMessage("Withdraw"),
         "withdrawDescription": MessageLookupByLibrary.simpleMessage(
@@ -445,7 +446,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Withdraw Request"),
         "yourFaceShouldBeVisibleCompletelyImageWithSpecsHeadphonesWillNotBeApproved":
             MessageLookupByLibrary.simpleMessage(
-                "Your Face should be visible\ncompletely.\nImage with Specs & Headphones\nwill not be approved."),
+                "Wajah harus terlihat\nlengkap.\nGambar telinga tertutup\ntidak akan disetujui."),
         "yourSalonHasBeenBanned": MessageLookupByLibrary.simpleMessage(
             "Your salon has been banned !"),
         "yourSalonHasBeenBannedBySuperAdminPleaseContact":
