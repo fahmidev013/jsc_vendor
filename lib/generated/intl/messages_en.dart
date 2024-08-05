@@ -24,20 +24,20 @@ class MessageLookup extends MessageLookupByLibrary {
 
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
         "aboutSalon": MessageLookupByLibrary.simpleMessage("Tentang Kapster"),
-        "aboutService": MessageLookupByLibrary.simpleMessage("About Service"),
+        "aboutService": MessageLookupByLibrary.simpleMessage("Tentang Layanan"),
         "accept": MessageLookupByLibrary.simpleMessage("Accept"),
         "acceptBooking": MessageLookupByLibrary.simpleMessage("Accept Booking"),
-        "accountNumber": MessageLookupByLibrary.simpleMessage("Account Number"),
+        "accountNumber": MessageLookupByLibrary.simpleMessage("Nomor Rekening"),
         "accountNumberDoesNotMatch": MessageLookupByLibrary.simpleMessage(
             "Account number does not matched"),
-        "add": MessageLookupByLibrary.simpleMessage("Add"),
-        "addAward": MessageLookupByLibrary.simpleMessage("Add Award"),
+        "add": MessageLookupByLibrary.simpleMessage("Tambah"),
+        "addAward": MessageLookupByLibrary.simpleMessage("Tambah Penghargaan"),
         "addBookingSlotsByWeekDays": MessageLookupByLibrary.simpleMessage(
-            "Add booking slots by week days"),
+            "Tambah ketersediaan slot booking di hari kerja"),
         "addImages": MessageLookupByLibrary.simpleMessage("Add Images"),
-        "addService": MessageLookupByLibrary.simpleMessage("Add Service"),
+        "addService": MessageLookupByLibrary.simpleMessage("Tambah layanan"),
         "addSlot": MessageLookupByLibrary.simpleMessage("Add Slot"),
-        "addStaff": MessageLookupByLibrary.simpleMessage("Add Staff"),
+        "addStaff": MessageLookupByLibrary.simpleMessage("Tambah Staf"),
         "appName": MessageLookupByLibrary.simpleMessage("JSC Mitra"),
         "appointments":
             MessageLookupByLibrary.simpleMessage("Jadwal Tatap muka"),
@@ -46,15 +46,15 @@ class MessageLookup extends MessageLookupByLibrary {
         "aug": MessageLookupByLibrary.simpleMessage("Aug"),
         "august": MessageLookupByLibrary.simpleMessage("August"),
         "availability": MessageLookupByLibrary.simpleMessage("Ketersediaan"),
-        "awardTitle": MessageLookupByLibrary.simpleMessage("Award Title"),
+        "awardTitle": MessageLookupByLibrary.simpleMessage("Judul Penghargaan"),
         "awardedBy": MessageLookupByLibrary.simpleMessage("Awarded By"),
         "awards": MessageLookupByLibrary.simpleMessage("Penghargaan"),
-        "bankName": MessageLookupByLibrary.simpleMessage("Bank Name"),
+        "bankName": MessageLookupByLibrary.simpleMessage("Nama Bank"),
         "banned": MessageLookupByLibrary.simpleMessage("Banned"),
-        "barberName": MessageLookupByLibrary.simpleMessage("Barber Name"),
+        "barberName": MessageLookupByLibrary.simpleMessage("Nama Staf"),
         "bookingDetails": MessageLookupByLibrary.simpleMessage("Info Booking"),
         "bookingHistory":
-            MessageLookupByLibrary.simpleMessage("Booking History"),
+            MessageLookupByLibrary.simpleMessage("Riwayat Booking"),
         "bookingRequests":
             MessageLookupByLibrary.simpleMessage("Permintaan Booking"),
         "bookings": MessageLookupByLibrary.simpleMessage("Booking"),
@@ -62,9 +62,9 @@ class MessageLookup extends MessageLookupByLibrary {
         "callNow": MessageLookupByLibrary.simpleMessage("Hubungi Sekarang"),
         "cancel": MessageLookupByLibrary.simpleMessage("Batal"),
         "cancelledChequePhoto":
-            MessageLookupByLibrary.simpleMessage("Cancelled Cheque Photo"),
+            MessageLookupByLibrary.simpleMessage("Foto Pembatalan Cek"),
         "categoriesYouServe":
-            MessageLookupByLibrary.simpleMessage("Categories You Serve"),
+            MessageLookupByLibrary.simpleMessage("Kategori Layanan"),
         "changeLanguage":
             MessageLookupByLibrary.simpleMessage("Change Language"),
         "changePassword":
@@ -72,12 +72,11 @@ class MessageLookup extends MessageLookupByLibrary {
         "clickToFetchLocation":
             MessageLookupByLibrary.simpleMessage("Click To Fetch Location"),
         "closed": MessageLookupByLibrary.simpleMessage("Tutup"),
-        "commission": MessageLookupByLibrary.simpleMessage("Commission"),
+        "commission": MessageLookupByLibrary.simpleMessage("Komisi"),
         "complete": MessageLookupByLibrary.simpleMessage("Complete"),
         "completeBooking":
             MessageLookupByLibrary.simpleMessage("Complete Booking"),
-        "completedOrders":
-            MessageLookupByLibrary.simpleMessage("Completed Orders"),
+        "completedOrders": MessageLookupByLibrary.simpleMessage("Order Selsai"),
         "confirmPassword":
             MessageLookupByLibrary.simpleMessage("Konfirmasi Password"),
         "contactDetail": MessageLookupByLibrary.simpleMessage("Nomor Kontak"),
@@ -95,44 +94,44 @@ class MessageLookup extends MessageLookupByLibrary {
         "decline": MessageLookupByLibrary.simpleMessage("Decline"),
         "delete": MessageLookupByLibrary.simpleMessage("Delete"),
         "deleteDesc": MessageLookupByLibrary.simpleMessage(
-            "Do you really want to delete your account?\nall of your data will deleted and you won’t\nbe able to recover it again !\n\nDo you really want to proceed?"),
+            "Anda yakin ingin menghapus akun?\nsemua data akan dihapus dan data kamu\ntidak akan bisa kembali !\n\nYakin ingin melanjutkan?"),
         "deleteForMe": MessageLookupByLibrary.simpleMessage("Delete for me"),
         "deleteImage": MessageLookupByLibrary.simpleMessage("Delete Image"),
         "deleteImageDes": MessageLookupByLibrary.simpleMessage(
             "Do you really want to delete image ?"),
         "deleteMessage": MessageLookupByLibrary.simpleMessage("Delete Message"),
         "deleteMyAccount":
-            MessageLookupByLibrary.simpleMessage("Delete My Account"),
+            MessageLookupByLibrary.simpleMessage("Hapus Akun Saya"),
         "deleteService": MessageLookupByLibrary.simpleMessage("Delete Service"),
         "deleteSlot": MessageLookupByLibrary.simpleMessage("Delete Slot"),
         "deleteStaff": MessageLookupByLibrary.simpleMessage("Delete Staff"),
         "deposit": MessageLookupByLibrary.simpleMessage("Deposit"),
-        "description": MessageLookupByLibrary.simpleMessage("Description"),
+        "description": MessageLookupByLibrary.simpleMessage("Deskripsi"),
         "descriptionOptional":
             MessageLookupByLibrary.simpleMessage("Description (Optional)"),
         "details": MessageLookupByLibrary.simpleMessage("Informasi"),
         "differentLocation":
             MessageLookupByLibrary.simpleMessage("Different Location"),
         "discountOptional":
-            MessageLookupByLibrary.simpleMessage("Discount (optional)"),
+            MessageLookupByLibrary.simpleMessage("Diskon (optional)"),
         "doYouReallyWantToDeleteThisSlot": MessageLookupByLibrary.simpleMessage(
             "Do you really want to delete this slot?"),
         "done": MessageLookupByLibrary.simpleMessage("Done"),
         "duration": MessageLookupByLibrary.simpleMessage("Duration"),
-        "earning": MessageLookupByLibrary.simpleMessage("Earning"),
+        "earning": MessageLookupByLibrary.simpleMessage("Pendapatan"),
         "earningReports":
-            MessageLookupByLibrary.simpleMessage("Earning Reports"),
+            MessageLookupByLibrary.simpleMessage("Laporan Pendapatan"),
         "earningsReport":
-            MessageLookupByLibrary.simpleMessage("Earnings Report"),
-        "edit": MessageLookupByLibrary.simpleMessage("Edit"),
+            MessageLookupByLibrary.simpleMessage("Laporan Pendapatan"),
+        "edit": MessageLookupByLibrary.simpleMessage("Ubah"),
         "editAvailability":
             MessageLookupByLibrary.simpleMessage("Edit Availability"),
         "editAvailabilitySlots":
-            MessageLookupByLibrary.simpleMessage("Edit Availability & Slots"),
+            MessageLookupByLibrary.simpleMessage("Ubah Ketersediaan dan Slot"),
         "editBankDetails":
-            MessageLookupByLibrary.simpleMessage("Edit Bank Details"),
+            MessageLookupByLibrary.simpleMessage("Ubah Informasi Bank"),
         "editSalonDetails":
-            MessageLookupByLibrary.simpleMessage("Edit Salon Details"),
+            MessageLookupByLibrary.simpleMessage("Ubah Informasi Kapster"),
         "editStaff": MessageLookupByLibrary.simpleMessage("Edit Staff"),
         "emailAddress": MessageLookupByLibrary.simpleMessage("Alamat Email"),
         "enterYourBankDetails":
@@ -160,23 +159,24 @@ class MessageLookup extends MessageLookupByLibrary {
         "gallery": MessageLookupByLibrary.simpleMessage("Galeri"),
         "galleryDes": MessageLookupByLibrary.simpleMessage(
             "Please add something to your gallery so that users\ncan see what kind of services you are offering\nand the environment of your salon."),
-        "gender": MessageLookupByLibrary.simpleMessage("Gender"),
-        "genderServiceIsFor":
-            MessageLookupByLibrary.simpleMessage("Gender (Service is for)"),
-        "gendersYouServe":
-            MessageLookupByLibrary.simpleMessage("Genders You Serve"),
-        "helpAndFAQ": MessageLookupByLibrary.simpleMessage("Help & FAQ"),
-        "holdersName": MessageLookupByLibrary.simpleMessage("Holders Name"),
+        "gender": MessageLookupByLibrary.simpleMessage("Jenis Kelamin"),
+        "genderServiceIsFor": MessageLookupByLibrary.simpleMessage(
+            "Jenis kelamin (Layanan itni diperuntukkan)"),
+        "gendersYouServe": MessageLookupByLibrary.simpleMessage(
+            "Jenis kelamin Calon Pelanggan"),
+        "helpAndFAQ": MessageLookupByLibrary.simpleMessage("Bantuan & FAQ"),
+        "holdersName":
+            MessageLookupByLibrary.simpleMessage("Nama Pemilik Rekening"),
         "i": MessageLookupByLibrary.simpleMessage("i"),
         "ifYouHaveAddedOnly2SlotsForMondayThen":
             MessageLookupByLibrary.simpleMessage(
-                "If you have added only 2 slots for Monday, then customers can select from those 2 slots for Monday."),
+                "Jika menambahkan 2 slot di hari Senin  If you have added only 2 slots for Monday, pelanggan dapat memilih salah satu dari 2 slot di hari itu"),
         "ifYouKeepThisOptionOnCustomersCanChooseTheir":
             MessageLookupByLibrary.simpleMessage(
-                "If you keep this option ON, Customers can choose their address to make orders and you have to complete the service on their location."),
+                "Jika mengaktifkan fitur ini, pelanggan memberikan alamat dan anda harus menyelesaikan orderan di tempat pelanggan."),
         "ifYouKeepThisOptionOnCustomersCanChooseTo":
             MessageLookupByLibrary.simpleMessage(
-                "If you keep this option ON, Customers can choose to pay after service. And you have to collect money manually at order completion."),
+                "Jika anda mengaktifkan fitur ini, Pelanggan dapat memilih membayar setelah layanan selesai. Anda akan menagih pembayaran secara manual kepada pelanggan setelah layanan selesai."),
         "ij": MessageLookupByLibrary.simpleMessage("i"),
         "insufficientAmountToWithdraw": MessageLookupByLibrary.simpleMessage(
             "Insufficient Amount to withdraw...!"),
@@ -188,7 +188,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "june": MessageLookupByLibrary.simpleMessage("June"),
         "keepItOnIfYouWantToReceiveNotifications":
             MessageLookupByLibrary.simpleMessage(
-                "Keep it On, if you want to receive notifications"),
+                "Nyalakan, jika ingin menerima pemberitahuan otomatis"),
         "keepingItOffYourSalonAndServicesWillNotBeShownToTheCustomerUntilTurnedOn":
             MessageLookupByLibrary.simpleMessage(
                 "Keeping it off, your salon and services will not be shown to the customer until turned on"),
@@ -196,26 +196,27 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Location fetched"),
         "locationNotFount":
             MessageLookupByLibrary.simpleMessage("Location not Fount"),
-        "logOut": MessageLookupByLibrary.simpleMessage("Log Out"),
-        "logoutDec": MessageLookupByLibrary.simpleMessage(
-            "Do you really want to logout ?"),
+        "logOut": MessageLookupByLibrary.simpleMessage("Keluar"),
+        "logoutDec":
+            MessageLookupByLibrary.simpleMessage("Anda yakin ingin keluar ?"),
         "male": MessageLookupByLibrary.simpleMessage("Laki-laki"),
-        "manageAwards": MessageLookupByLibrary.simpleMessage("Manage Awards"),
+        "manageAwards":
+            MessageLookupByLibrary.simpleMessage("Kelola Penghargaan"),
         "manageServices":
-            MessageLookupByLibrary.simpleMessage("Manage Services"),
-        "manageStaff": MessageLookupByLibrary.simpleMessage("Manage Staff"),
+            MessageLookupByLibrary.simpleMessage("Kelola Layanan"),
+        "manageStaff": MessageLookupByLibrary.simpleMessage("Kelola Staf"),
         "mar": MessageLookupByLibrary.simpleMessage("Mar"),
         "march": MessageLookupByLibrary.simpleMessage("March"),
         "markCompleted": MessageLookupByLibrary.simpleMessage("Mark Completed"),
         "may": MessageLookupByLibrary.simpleMessage("May"),
         "message": MessageLookupByLibrary.simpleMessage("Pesan"),
         "messages": MessageLookupByLibrary.simpleMessage("Pesan"),
-        "mobileNumber": MessageLookupByLibrary.simpleMessage("Mobile number"),
+        "mobileNumber": MessageLookupByLibrary.simpleMessage("Nomor HP"),
         "monday": MessageLookupByLibrary.simpleMessage("Senin"),
         "mondayFriday": MessageLookupByLibrary.simpleMessage("Senin - Jumat"),
         "mySalon": MessageLookupByLibrary.simpleMessage("Kapster Saya"),
         "navigate": MessageLookupByLibrary.simpleMessage("Navigate"),
-        "newPassword": MessageLookupByLibrary.simpleMessage("New Password"),
+        "newPassword": MessageLookupByLibrary.simpleMessage("Password Baru"),
         "newUserRegisterHere": MessageLookupByLibrary.simpleMessage(
             "Pengguna Baru? Daftar disini"),
         "next": MessageLookupByLibrary.simpleMessage("Lanjut"),
@@ -224,10 +225,10 @@ class MessageLookup extends MessageLookupByLibrary {
         "november": MessageLookupByLibrary.simpleMessage("November"),
         "oct": MessageLookupByLibrary.simpleMessage("Oct"),
         "october": MessageLookupByLibrary.simpleMessage("October"),
-        "offerPayAfterServiceOption": MessageLookupByLibrary.simpleMessage(
-            "Offer Pay After Service Option"),
+        "offerPayAfterServiceOption":
+            MessageLookupByLibrary.simpleMessage("Pembayaran manual di tempat"),
         "offeredBy": MessageLookupByLibrary.simpleMessage("Offered By"),
-        "oldPassword": MessageLookupByLibrary.simpleMessage("Old Password"),
+        "oldPassword": MessageLookupByLibrary.simpleMessage("Password Lama"),
         "oldPasswordIsWrong":
             MessageLookupByLibrary.simpleMessage("Old Password Is Wrong"),
         "one": MessageLookupByLibrary.simpleMessage("1"),
@@ -244,11 +245,12 @@ class MessageLookup extends MessageLookupByLibrary {
         "payAfterService":
             MessageLookupByLibrary.simpleMessage("Pay After Service"),
         "paymentType": MessageLookupByLibrary.simpleMessage("Payment Type"),
-        "payoutHistory": MessageLookupByLibrary.simpleMessage("Payout History"),
+        "payoutHistory":
+            MessageLookupByLibrary.simpleMessage("Riwayat Pembayaran"),
         "payoutReject": MessageLookupByLibrary.simpleMessage("PayoutReject"),
-        "payouts": MessageLookupByLibrary.simpleMessage("Payouts"),
+        "payouts": MessageLookupByLibrary.simpleMessage("Pembayaran"),
         "photoShouldBeClear":
-            MessageLookupByLibrary.simpleMessage("Photo should be clear"),
+            MessageLookupByLibrary.simpleMessage("Foto harus jelas"),
         "placeBooking": MessageLookupByLibrary.simpleMessage("Place Booking"),
         "pleaseCompleteAvailabilityFirst": MessageLookupByLibrary.simpleMessage(
             "Please complete availability first...!"),
@@ -333,16 +335,17 @@ class MessageLookup extends MessageLookupByLibrary {
         "premiumBeautyServices":
             MessageLookupByLibrary.simpleMessage("Kapster Booking Online"),
         "prepaid": MessageLookupByLibrary.simpleMessage("Pre-Paid"),
-        "price": MessageLookupByLibrary.simpleMessage("Price"),
-        "privacyPolicy": MessageLookupByLibrary.simpleMessage("Privacy Policy"),
+        "price": MessageLookupByLibrary.simpleMessage("Harga"),
+        "privacyPolicy":
+            MessageLookupByLibrary.simpleMessage("Kebijakan Privasi"),
         "purchase": MessageLookupByLibrary.simpleMessage("Pembelian"),
         "pushNotification":
-            MessageLookupByLibrary.simpleMessage("Push Notification"),
+            MessageLookupByLibrary.simpleMessage("Notifikasi Otomatis"),
         "qRScan": MessageLookupByLibrary.simpleMessage("QR Scan"),
         "qRScan1": MessageLookupByLibrary.simpleMessage("QR Scan"),
         "ratings": MessageLookupByLibrary.simpleMessage("Ratings"),
         "reEnterAccountNumber":
-            MessageLookupByLibrary.simpleMessage("Re-Enter Account Number"),
+            MessageLookupByLibrary.simpleMessage("Ulang Nomor Rekening"),
         "refund": MessageLookupByLibrary.simpleMessage("Pengembalian Dana"),
         "registerYourShopWithUsAndHaveValuableLeads":
             MessageLookupByLibrary.simpleMessage(
@@ -356,7 +359,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "reviews": MessageLookupByLibrary.simpleMessage("Ulasan"),
         "salon": MessageLookupByLibrary.simpleMessage("Kapster"),
         "salonAddress": MessageLookupByLibrary.simpleMessage("Alamat Kapster"),
-        "salonImages": MessageLookupByLibrary.simpleMessage("Salon Images"),
+        "salonImages": MessageLookupByLibrary.simpleMessage("Foto Kapster"),
         "salonLocation": MessageLookupByLibrary.simpleMessage("Lokasi Kapster"),
         "salonName":
             MessageLookupByLibrary.simpleMessage("Nama Tempat Kapster"),
@@ -377,7 +380,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "selectCancelledCheque": MessageLookupByLibrary.simpleMessage(
             "Please select cancelled cheque photo."),
         "selectCategory":
-            MessageLookupByLibrary.simpleMessage("Select Category"),
+            MessageLookupByLibrary.simpleMessage("Pilih kategori"),
         "selectMonth": MessageLookupByLibrary.simpleMessage("Select Month"),
         "selectMsg": MessageLookupByLibrary.simpleMessage("Select Message"),
         "selectTime": MessageLookupByLibrary.simpleMessage("Select Time"),
@@ -387,26 +390,26 @@ class MessageLookup extends MessageLookupByLibrary {
         "sendMedia": MessageLookupByLibrary.simpleMessage("Send Media"),
         "sep": MessageLookupByLibrary.simpleMessage("Sep"),
         "september": MessageLookupByLibrary.simpleMessage("September"),
-        "serveAtCustomerAddress":
-            MessageLookupByLibrary.simpleMessage("Serve At Customer Address"),
-        "serviceImages": MessageLookupByLibrary.simpleMessage("Service Images"),
+        "serveAtCustomerAddress": MessageLookupByLibrary.simpleMessage(
+            "Melayani di tempat pelanggan"),
+        "serviceImages": MessageLookupByLibrary.simpleMessage("Foto Layanan"),
         "serviceLocation":
             MessageLookupByLibrary.simpleMessage("Service Location"),
-        "serviceTitle": MessageLookupByLibrary.simpleMessage("Service Title"),
+        "serviceTitle": MessageLookupByLibrary.simpleMessage("Judul Layanan"),
         "services": MessageLookupByLibrary.simpleMessage("Layanan"),
         "setAvailabilityOfYourSalon": MessageLookupByLibrary.simpleMessage(
-            "Set Availability of your salon"),
+            "Pilih ketersediaan kapster anda"),
         "signInToContinue": MessageLookupByLibrary.simpleMessage("Masuk"),
         "six": MessageLookupByLibrary.simpleMessage("6"),
         "slots": MessageLookupByLibrary.simpleMessage("Slots"),
         "staff": MessageLookupByLibrary.simpleMessage("Staf"),
-        "statement": MessageLookupByLibrary.simpleMessage("Statement"),
+        "statement": MessageLookupByLibrary.simpleMessage("Laporan"),
         "subTotal": MessageLookupByLibrary.simpleMessage("Subtotal"),
         "submissionSuccessful":
             MessageLookupByLibrary.simpleMessage("Submission Successful"),
-        "submit": MessageLookupByLibrary.simpleMessage("Submit"),
+        "submit": MessageLookupByLibrary.simpleMessage("Kirim"),
         "swiftCode": MessageLookupByLibrary.simpleMessage("Swift Code"),
-        "termsOfUse": MessageLookupByLibrary.simpleMessage("Terms Of Use"),
+        "termsOfUse": MessageLookupByLibrary.simpleMessage("Syarat Penggunaan"),
         "thereIsNothingToShow":
             MessageLookupByLibrary.simpleMessage("There is nothing to show."),
         "thisOrderIsPayAfterServiceOrderMakeSureTo":
@@ -418,15 +421,16 @@ class MessageLookup extends MessageLookupByLibrary {
         "three": MessageLookupByLibrary.simpleMessage("3"),
         "time": MessageLookupByLibrary.simpleMessage("Time"),
         "timeItTakesHours":
-            MessageLookupByLibrary.simpleMessage("Time It Takes (Hours)"),
+            MessageLookupByLibrary.simpleMessage("Waktu yang terpakai (Jam)"),
         "timeItTakesMin":
-            MessageLookupByLibrary.simpleMessage("Time It Takes (Minutes)"),
-        "to": MessageLookupByLibrary.simpleMessage("Kepada"),
+            MessageLookupByLibrary.simpleMessage("Waktu yang terpakai (Menit)"),
+        "to": MessageLookupByLibrary.simpleMessage("Sampai"),
         "tooLarge": MessageLookupByLibrary.simpleMessage("Too large..."),
         "topRated": MessageLookupByLibrary.simpleMessage("Top Kapster"),
         "totalAmount": MessageLookupByLibrary.simpleMessage("Total Amount"),
-        "totalEarning": MessageLookupByLibrary.simpleMessage("Total Earning"),
-        "totalOrders": MessageLookupByLibrary.simpleMessage("Total Orders"),
+        "totalEarning":
+            MessageLookupByLibrary.simpleMessage("Total Pendapatan"),
+        "totalOrders": MessageLookupByLibrary.simpleMessage("Total Order"),
         "totalOrders_": MessageLookupByLibrary.simpleMessage("Total Orders :"),
         "two": MessageLookupByLibrary.simpleMessage("2"),
         "unisex": MessageLookupByLibrary.simpleMessage("Unisex"),
@@ -438,7 +442,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "vacationMode": MessageLookupByLibrary.simpleMessage("Vacation Mode"),
         "video": MessageLookupByLibrary.simpleMessage("Video?"),
         "view": MessageLookupByLibrary.simpleMessage("Lihat"),
-        "wallet": MessageLookupByLibrary.simpleMessage("Wallet"),
+        "wallet": MessageLookupByLibrary.simpleMessage("Dompet"),
         "withdraw": MessageLookupByLibrary.simpleMessage("Withdraw"),
         "withdrawDescription": MessageLookupByLibrary.simpleMessage(
             "Do you really want to withdraw all amount of your wallet?"),

@@ -465,10 +465,10 @@ class S {
     );
   }
 
-  /// `Set Availability of your salon`
+  /// `Pilih ketersediaan kapster anda`
   String get setAvailabilityOfYourSalon {
     return Intl.message(
-      'Set Availability of your salon',
+      'Pilih ketersediaan kapster anda',
       name: 'setAvailabilityOfYourSalon',
       desc: '',
       args: [],
@@ -495,30 +495,30 @@ class S {
     );
   }
 
-  /// `Kepada`
+  /// `Sampai`
   String get to {
     return Intl.message(
-      'Kepada',
+      'Sampai',
       name: 'to',
       desc: '',
       args: [],
     );
   }
 
-  /// `Categories You Serve`
+  /// `Kategori Layanan`
   String get categoriesYouServe {
     return Intl.message(
-      'Categories You Serve',
+      'Kategori Layanan',
       name: 'categoriesYouServe',
       desc: '',
       args: [],
     );
   }
 
-  /// `Genders You Serve`
+  /// `Jenis kelamin Calon Pelanggan`
   String get gendersYouServe {
     return Intl.message(
-      'Genders You Serve',
+      'Jenis kelamin Calon Pelanggan',
       name: 'gendersYouServe',
       desc: '',
       args: [],
@@ -575,40 +575,40 @@ class S {
     );
   }
 
-  /// `Bank Name`
+  /// `Nama Bank`
   String get bankName {
     return Intl.message(
-      'Bank Name',
+      'Nama Bank',
       name: 'bankName',
       desc: '',
       args: [],
     );
   }
 
-  /// `Account Number`
+  /// `Nomor Rekening`
   String get accountNumber {
     return Intl.message(
-      'Account Number',
+      'Nomor Rekening',
       name: 'accountNumber',
       desc: '',
       args: [],
     );
   }
 
-  /// `Re-Enter Account Number`
+  /// `Ulang Nomor Rekening`
   String get reEnterAccountNumber {
     return Intl.message(
-      'Re-Enter Account Number',
+      'Ulang Nomor Rekening',
       name: 'reEnterAccountNumber',
       desc: '',
       args: [],
     );
   }
 
-  /// `Holders Name`
+  /// `Nama Pemilik Rekening`
   String get holdersName {
     return Intl.message(
-      'Holders Name',
+      'Nama Pemilik Rekening',
       name: 'holdersName',
       desc: '',
       args: [],
@@ -625,20 +625,20 @@ class S {
     );
   }
 
-  /// `Cancelled Cheque Photo`
+  /// `Foto Pembatalan Cek`
   String get cancelledChequePhoto {
     return Intl.message(
-      'Cancelled Cheque Photo',
+      'Foto Pembatalan Cek',
       name: 'cancelledChequePhoto',
       desc: '',
       args: [],
     );
   }
 
-  /// `Photo should be clear`
+  /// `Foto harus jelas`
   String get photoShouldBeClear {
     return Intl.message(
-      'Photo should be clear',
+      'Foto harus jelas',
       name: 'photoShouldBeClear',
       desc: '',
       args: [],
@@ -1025,20 +1025,20 @@ class S {
     );
   }
 
-  /// `Push Notification`
+  /// `Notifikasi Otomatis`
   String get pushNotification {
     return Intl.message(
-      'Push Notification',
+      'Notifikasi Otomatis',
       name: 'pushNotification',
       desc: '',
       args: [],
     );
   }
 
-  /// `Keep it On, if you want to receive notifications`
+  /// `Nyalakan, jika ingin menerima pemberitahuan otomatis`
   String get keepItOnIfYouWantToReceiveNotifications {
     return Intl.message(
-      'Keep it On, if you want to receive notifications',
+      'Nyalakan, jika ingin menerima pemberitahuan otomatis',
       name: 'keepItOnIfYouWantToReceiveNotifications',
       desc: '',
       args: [],
@@ -1067,20 +1067,20 @@ class S {
     );
   }
 
-  /// `Edit Salon Details`
+  /// `Ubah Informasi Kapster`
   String get editSalonDetails {
     return Intl.message(
-      'Edit Salon Details',
+      'Ubah Informasi Kapster',
       name: 'editSalonDetails',
       desc: '',
       args: [],
     );
   }
 
-  /// `Edit Bank Details`
+  /// `Ubah Informasi Bank`
   String get editBankDetails {
     return Intl.message(
-      'Edit Bank Details',
+      'Ubah Informasi Bank',
       name: 'editBankDetails',
       desc: '',
       args: [],
@@ -1097,70 +1097,70 @@ class S {
     );
   }
 
-  /// `Manage Services`
+  /// `Kelola Layanan`
   String get manageServices {
     return Intl.message(
-      'Manage Services',
+      'Kelola Layanan',
       name: 'manageServices',
       desc: '',
       args: [],
     );
   }
 
-  /// `Manage Awards`
+  /// `Kelola Penghargaan`
   String get manageAwards {
     return Intl.message(
-      'Manage Awards',
+      'Kelola Penghargaan',
       name: 'manageAwards',
       desc: '',
       args: [],
     );
   }
 
-  /// `Wallet`
+  /// `Dompet`
   String get wallet {
     return Intl.message(
-      'Wallet',
+      'Dompet',
       name: 'wallet',
       desc: '',
       args: [],
     );
   }
 
-  /// `Earning Reports`
+  /// `Laporan Pendapatan`
   String get earningReports {
     return Intl.message(
-      'Earning Reports',
+      'Laporan Pendapatan',
       name: 'earningReports',
       desc: '',
       args: [],
     );
   }
 
-  /// `Payouts`
+  /// `Pembayaran`
   String get payouts {
     return Intl.message(
-      'Payouts',
+      'Pembayaran',
       name: 'payouts',
       desc: '',
       args: [],
     );
   }
 
-  /// `Terms Of Use`
+  /// `Syarat Penggunaan`
   String get termsOfUse {
     return Intl.message(
-      'Terms Of Use',
+      'Syarat Penggunaan',
       name: 'termsOfUse',
       desc: '',
       args: [],
     );
   }
 
-  /// `Privacy Policy`
+  /// `Kebijakan Privasi`
   String get privacyPolicy {
     return Intl.message(
-      'Privacy Policy',
+      'Kebijakan Privasi',
       name: 'privacyPolicy',
       desc: '',
       args: [],
@@ -1177,180 +1177,180 @@ class S {
     );
   }
 
-  /// `Help & FAQ`
+  /// `Bantuan & FAQ`
   String get helpAndFAQ {
     return Intl.message(
-      'Help & FAQ',
+      'Bantuan & FAQ',
       name: 'helpAndFAQ',
       desc: '',
       args: [],
     );
   }
 
-  /// `Log Out`
+  /// `Keluar`
   String get logOut {
     return Intl.message(
-      'Log Out',
+      'Keluar',
       name: 'logOut',
       desc: '',
       args: [],
     );
   }
 
-  /// `Delete My Account`
+  /// `Hapus Akun Saya`
   String get deleteMyAccount {
     return Intl.message(
-      'Delete My Account',
+      'Hapus Akun Saya',
       name: 'deleteMyAccount',
       desc: '',
       args: [],
     );
   }
 
-  /// `Salon Images`
+  /// `Foto Kapster`
   String get salonImages {
     return Intl.message(
-      'Salon Images',
+      'Foto Kapster',
       name: 'salonImages',
       desc: '',
       args: [],
     );
   }
 
-  /// `Submit`
+  /// `Kirim`
   String get submit {
     return Intl.message(
-      'Submit',
+      'Kirim',
       name: 'submit',
       desc: '',
       args: [],
     );
   }
 
-  /// `Edit`
+  /// `Ubah`
   String get edit {
     return Intl.message(
-      'Edit',
+      'Ubah',
       name: 'edit',
       desc: '',
       args: [],
     );
   }
 
-  /// `Add Service`
+  /// `Tambah layanan`
   String get addService {
     return Intl.message(
-      'Add Service',
+      'Tambah layanan',
       name: 'addService',
       desc: '',
       args: [],
     );
   }
 
-  /// `Select Category`
+  /// `Pilih kategori`
   String get selectCategory {
     return Intl.message(
-      'Select Category',
+      'Pilih kategori',
       name: 'selectCategory',
       desc: '',
       args: [],
     );
   }
 
-  /// `Service Title`
+  /// `Judul Layanan`
   String get serviceTitle {
     return Intl.message(
-      'Service Title',
+      'Judul Layanan',
       name: 'serviceTitle',
       desc: '',
       args: [],
     );
   }
 
-  /// `Price`
+  /// `Harga`
   String get price {
     return Intl.message(
-      'Price',
+      'Harga',
       name: 'price',
       desc: '',
       args: [],
     );
   }
 
-  /// `Discount (optional)`
+  /// `Diskon (optional)`
   String get discountOptional {
     return Intl.message(
-      'Discount (optional)',
+      'Diskon (optional)',
       name: 'discountOptional',
       desc: '',
       args: [],
     );
   }
 
-  /// `Time It Takes (Hours)`
+  /// `Waktu yang terpakai (Jam)`
   String get timeItTakesHours {
     return Intl.message(
-      'Time It Takes (Hours)',
+      'Waktu yang terpakai (Jam)',
       name: 'timeItTakesHours',
       desc: '',
       args: [],
     );
   }
 
-  /// `Time It Takes (Minutes)`
+  /// `Waktu yang terpakai (Menit)`
   String get timeItTakesMin {
     return Intl.message(
-      'Time It Takes (Minutes)',
+      'Waktu yang terpakai (Menit)',
       name: 'timeItTakesMin',
       desc: '',
       args: [],
     );
   }
 
-  /// `Gender (Service is for)`
+  /// `Jenis kelamin (Layanan itni diperuntukkan)`
   String get genderServiceIsFor {
     return Intl.message(
-      'Gender (Service is for)',
+      'Jenis kelamin (Layanan itni diperuntukkan)',
       name: 'genderServiceIsFor',
       desc: '',
       args: [],
     );
   }
 
-  /// `About Service`
+  /// `Tentang Layanan`
   String get aboutService {
     return Intl.message(
-      'About Service',
+      'Tentang Layanan',
       name: 'aboutService',
       desc: '',
       args: [],
     );
   }
 
-  /// `Service Images`
+  /// `Foto Layanan`
   String get serviceImages {
     return Intl.message(
-      'Service Images',
+      'Foto Layanan',
       name: 'serviceImages',
       desc: '',
       args: [],
     );
   }
 
-  /// `Add Award`
+  /// `Tambah Penghargaan`
   String get addAward {
     return Intl.message(
-      'Add Award',
+      'Tambah Penghargaan',
       name: 'addAward',
       desc: '',
       args: [],
     );
   }
 
-  /// `Award Title`
+  /// `Judul Penghargaan`
   String get awardTitle {
     return Intl.message(
-      'Award Title',
+      'Judul Penghargaan',
       name: 'awardTitle',
       desc: '',
       args: [],
@@ -1367,130 +1367,130 @@ class S {
     );
   }
 
-  /// `Description`
+  /// `Deskripsi`
   String get description {
     return Intl.message(
-      'Description',
+      'Deskripsi',
       name: 'description',
       desc: '',
       args: [],
     );
   }
 
-  /// `Statement`
+  /// `Laporan`
   String get statement {
     return Intl.message(
-      'Statement',
+      'Laporan',
       name: 'statement',
       desc: '',
       args: [],
     );
   }
 
-  /// `Commission`
+  /// `Komisi`
   String get commission {
     return Intl.message(
-      'Commission',
+      'Komisi',
       name: 'commission',
       desc: '',
       args: [],
     );
   }
 
-  /// `Earning`
+  /// `Pendapatan`
   String get earning {
     return Intl.message(
-      'Earning',
+      'Pendapatan',
       name: 'earning',
       desc: '',
       args: [],
     );
   }
 
-  /// `Earnings Report`
+  /// `Laporan Pendapatan`
   String get earningsReport {
     return Intl.message(
-      'Earnings Report',
+      'Laporan Pendapatan',
       name: 'earningsReport',
       desc: '',
       args: [],
     );
   }
 
-  /// `Total Earning`
+  /// `Total Pendapatan`
   String get totalEarning {
     return Intl.message(
-      'Total Earning',
+      'Total Pendapatan',
       name: 'totalEarning',
       desc: '',
       args: [],
     );
   }
 
-  /// `Total Orders`
+  /// `Total Order`
   String get totalOrders {
     return Intl.message(
-      'Total Orders',
+      'Total Order',
       name: 'totalOrders',
       desc: '',
       args: [],
     );
   }
 
-  /// `Completed Orders`
+  /// `Order Selsai`
   String get completedOrders {
     return Intl.message(
-      'Completed Orders',
+      'Order Selsai',
       name: 'completedOrders',
       desc: '',
       args: [],
     );
   }
 
-  /// `Payout History`
+  /// `Riwayat Pembayaran`
   String get payoutHistory {
     return Intl.message(
-      'Payout History',
+      'Riwayat Pembayaran',
       name: 'payoutHistory',
       desc: '',
       args: [],
     );
   }
 
-  /// `Old Password`
+  /// `Password Lama`
   String get oldPassword {
     return Intl.message(
-      'Old Password',
+      'Password Lama',
       name: 'oldPassword',
       desc: '',
       args: [],
     );
   }
 
-  /// `New Password`
+  /// `Password Baru`
   String get newPassword {
     return Intl.message(
-      'New Password',
+      'Password Baru',
       name: 'newPassword',
       desc: '',
       args: [],
     );
   }
 
-  /// `Do you really want to logout ?`
+  /// `Anda yakin ingin keluar ?`
   String get logoutDec {
     return Intl.message(
-      'Do you really want to logout ?',
+      'Anda yakin ingin keluar ?',
       name: 'logoutDec',
       desc: '',
       args: [],
     );
   }
 
-  /// `Do you really want to delete your account?\nall of your data will deleted and you won’t\nbe able to recover it again !\n\nDo you really want to proceed?`
+  /// `Anda yakin ingin menghapus akun?\nsemua data akan dihapus dan data kamu\ntidak akan bisa kembali !\n\nYakin ingin melanjutkan?`
   String get deleteDesc {
     return Intl.message(
-      'Do you really want to delete your account?\nall of your data will deleted and you won’t\nbe able to recover it again !\n\nDo you really want to proceed?',
+      'Anda yakin ingin menghapus akun?\nsemua data akan dihapus dan data kamu\ntidak akan bisa kembali !\n\nYakin ingin melanjutkan?',
       name: 'deleteDesc',
       desc: '',
       args: [],
@@ -2427,10 +2427,10 @@ class S {
     );
   }
 
-  /// `Booking History`
+  /// `Riwayat Booking`
   String get bookingHistory {
     return Intl.message(
-      'Booking History',
+      'Riwayat Booking',
       name: 'bookingHistory',
       desc: '',
       args: [],
@@ -2497,10 +2497,10 @@ class S {
     );
   }
 
-  /// `Add booking slots by week days`
+  /// `Tambah ketersediaan slot booking di hari kerja`
   String get addBookingSlotsByWeekDays {
     return Intl.message(
-      'Add booking slots by week days',
+      'Tambah ketersediaan slot booking di hari kerja',
       name: 'addBookingSlotsByWeekDays',
       desc: '',
       args: [],
@@ -2517,20 +2517,20 @@ class S {
     );
   }
 
-  /// `Add`
+  /// `Tambah`
   String get add {
     return Intl.message(
-      'Add',
+      'Tambah',
       name: 'add',
       desc: '',
       args: [],
     );
   }
 
-  /// `If you have added only 2 slots for Monday, then customers can select from those 2 slots for Monday.`
+  /// `Jika menambahkan 2 slot di hari Senin  If you have added only 2 slots for Monday, pelanggan dapat memilih salah satu dari 2 slot di hari itu`
   String get ifYouHaveAddedOnly2SlotsForMondayThen {
     return Intl.message(
-      'If you have added only 2 slots for Monday, then customers can select from those 2 slots for Monday.',
+      'Jika menambahkan 2 slot di hari Senin  If you have added only 2 slots for Monday, pelanggan dapat memilih salah satu dari 2 slot di hari itu',
       name: 'ifYouHaveAddedOnly2SlotsForMondayThen',
       desc: '',
       args: [],
@@ -2627,10 +2627,10 @@ class S {
     );
   }
 
-  /// `Edit Availability & Slots`
+  /// `Ubah Ketersediaan dan Slot`
   String get editAvailabilitySlots {
     return Intl.message(
-      'Edit Availability & Slots',
+      'Ubah Ketersediaan dan Slot',
       name: 'editAvailabilitySlots',
       desc: '',
       args: [],
@@ -2677,10 +2677,10 @@ class S {
     );
   }
 
-  /// `Manage Staff`
+  /// `Kelola Staf`
   String get manageStaff {
     return Intl.message(
-      'Manage Staff',
+      'Kelola Staf',
       name: 'manageStaff',
       desc: '',
       args: [],
@@ -2697,40 +2697,40 @@ class S {
     );
   }
 
-  /// `Add Staff`
+  /// `Tambah Staf`
   String get addStaff {
     return Intl.message(
-      'Add Staff',
+      'Tambah Staf',
       name: 'addStaff',
       desc: '',
       args: [],
     );
   }
 
-  /// `Barber Name`
+  /// `Nama Staf`
   String get barberName {
     return Intl.message(
-      'Barber Name',
+      'Nama Staf',
       name: 'barberName',
       desc: '',
       args: [],
     );
   }
 
-  /// `Mobile number`
+  /// `Nomor HP`
   String get mobileNumber {
     return Intl.message(
-      'Mobile number',
+      'Nomor HP',
       name: 'mobileNumber',
       desc: '',
       args: [],
     );
   }
 
-  /// `Gender`
+  /// `Jenis Kelamin`
   String get gender {
     return Intl.message(
-      'Gender',
+      'Jenis Kelamin',
       name: 'gender',
       desc: '',
       args: [],
@@ -2887,40 +2887,40 @@ class S {
     );
   }
 
-  /// `Serve At Customer Address`
+  /// `Melayani di tempat pelanggan`
   String get serveAtCustomerAddress {
     return Intl.message(
-      'Serve At Customer Address',
+      'Melayani di tempat pelanggan',
       name: 'serveAtCustomerAddress',
       desc: '',
       args: [],
     );
   }
 
-  /// `If you keep this option ON, Customers can choose their address to make orders and you have to complete the service on their location.`
+  /// `Jika mengaktifkan fitur ini, pelanggan memberikan alamat dan anda harus menyelesaikan orderan di tempat pelanggan.`
   String get ifYouKeepThisOptionOnCustomersCanChooseTheir {
     return Intl.message(
-      'If you keep this option ON, Customers can choose their address to make orders and you have to complete the service on their location.',
+      'Jika mengaktifkan fitur ini, pelanggan memberikan alamat dan anda harus menyelesaikan orderan di tempat pelanggan.',
       name: 'ifYouKeepThisOptionOnCustomersCanChooseTheir',
       desc: '',
       args: [],
     );
   }
 
-  /// `Offer Pay After Service Option`
+  /// `Pembayaran manual di tempat`
   String get offerPayAfterServiceOption {
     return Intl.message(
-      'Offer Pay After Service Option',
+      'Pembayaran manual di tempat',
       name: 'offerPayAfterServiceOption',
       desc: '',
       args: [],
     );
   }
 
-  /// `If you keep this option ON, Customers can choose to pay after service. And you have to collect money manually at order completion.`
+  /// `Jika anda mengaktifkan fitur ini, Pelanggan dapat memilih membayar setelah layanan selesai. Anda akan menagih pembayaran secara manual kepada pelanggan setelah layanan selesai.`
   String get ifYouKeepThisOptionOnCustomersCanChooseTo {
     return Intl.message(
-      'If you keep this option ON, Customers can choose to pay after service. And you have to collect money manually at order completion.',
+      'Jika anda mengaktifkan fitur ini, Pelanggan dapat memilih membayar setelah layanan selesai. Anda akan menagih pembayaran secara manual kepada pelanggan setelah layanan selesai.',
       name: 'ifYouKeepThisOptionOnCustomersCanChooseTo',
       desc: '',
       args: [],
