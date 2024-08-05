@@ -51,30 +51,30 @@ class S {
     return Localizations.of<S>(context, S);
   }
 
-  /// `JSC Mitra`
+  /// `JSC Mitra Online`
   String get appName {
     return Intl.message(
-      'JSC Mitra',
+      'JSC Mitra Online',
       name: 'appName',
       desc: '',
       args: [],
     );
   }
 
-  /// `Kapster`
+  /// `Barbershop`
   String get salon {
     return Intl.message(
-      'Kapster',
+      'Barbershop',
       name: 'salon',
       desc: '',
       args: [],
     );
   }
 
-  /// `Kapster Booking Online`
+  /// `JSC Online Barbershop`
   String get premiumBeautyServices {
     return Intl.message(
-      'Kapster Booking Online',
+      'JSC Online Barbershop',
       name: 'premiumBeautyServices',
       desc: '',
       args: [],
@@ -645,10 +645,10 @@ class S {
     );
   }
 
-  /// `Submission Successful`
+  /// `Pendaftaran Berhasil`
   String get submissionSuccessful {
     return Intl.message(
-      'Submission Successful',
+      'Pendaftaran Berhasil',
       name: 'submissionSuccessful',
       desc: '',
       args: [],
@@ -2527,10 +2527,10 @@ class S {
     );
   }
 
-  /// `Jika menambahkan 2 slot di hari Senin  If you have added only 2 slots for Monday, pelanggan dapat memilih salah satu dari 2 slot di hari itu`
+  /// `Jika menambahkan 2 slot di hari Senin  Jika anda menambahkan 2 slot di hari Senin, pelanggan dapat memilih salah satu dari 2 slot di hari itu`
   String get ifYouHaveAddedOnly2SlotsForMondayThen {
     return Intl.message(
-      'Jika menambahkan 2 slot di hari Senin  If you have added only 2 slots for Monday, pelanggan dapat memilih salah satu dari 2 slot di hari itu',
+      'Jika menambahkan 2 slot di hari Senin  Jika anda menambahkan 2 slot di hari Senin, pelanggan dapat memilih salah satu dari 2 slot di hari itu',
       name: 'ifYouHaveAddedOnly2SlotsForMondayThen',
       desc: '',
       args: [],

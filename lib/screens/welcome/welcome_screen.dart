@@ -1,5 +1,12 @@
 import 'dart:ui';
 
+import 'package:firebase_messaging/firebase_messaging.dart';
+import 'package:flutter/foundation.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_app_badger/flutter_app_badger.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:flutter_local_notifications/flutter_local_notifications.dart';
+import 'package:get/get.dart';
 import 'package:jsc_barbershop/model/user/salon.dart';
 import 'package:jsc_barbershop/screens/ban/salon_ban_screen.dart';
 import 'package:jsc_barbershop/screens/login/email_login_screen.dart';
@@ -14,13 +21,6 @@ import 'package:jsc_barbershop/utils/const_res.dart';
 import 'package:jsc_barbershop/utils/custom/custom_widget.dart';
 import 'package:jsc_barbershop/utils/shared_pref.dart';
 import 'package:jsc_barbershop/utils/style_res.dart';
-import 'package:firebase_messaging/firebase_messaging.dart';
-import 'package:flutter/foundation.dart';
-import 'package:flutter/material.dart';
-import 'package:flutter_app_badger/flutter_app_badger.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
-import 'package:flutter_local_notifications/flutter_local_notifications.dart';
-import 'package:get/get.dart';
 
 class WelComeScreen extends StatefulWidget {
   const WelComeScreen({super.key});
@@ -120,15 +120,27 @@ class _WelComeScreenState extends State<WelComeScreen> {
             alignment: Alignment.bottomCenter,
             child: Column(
               children: [
-                const Expanded(
+                Expanded(
                   child: SafeArea(
                     bottom: false,
                     child: Padding(
-                      padding: EdgeInsets.only(top: 100),
-                      child: AppLogo(
-                        textSize: 34,
-                      ),
-                    ),
+                        padding: EdgeInsets.only(top: 100),
+                        child: Container(
+                          height: double.infinity,
+                          width: double.infinity,
+                          decoration: BoxDecoration(
+                            color: ColorRes.black.withOpacity(0.4),
+                          ),
+                          padding: const EdgeInsets.symmetric(horizontal: 20),
+                          child: ClipRect(
+                            child: BackdropFilter(
+                                filter:
+                                    ImageFilter.blur(sigmaX: 5.0, sigmaY: 5.0),
+                                child: AppLogo(
+                                  textSize: 34,
+                                )),
+                          ),
+                        )),
                   ),
                 ),
                 ClipRect(

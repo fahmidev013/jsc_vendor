@@ -1,10 +1,10 @@
-import 'package:jsc_barbershop/utils/asset_res.dart';
-import 'package:jsc_barbershop/utils/color_res.dart';
-import 'package:jsc_barbershop/utils/style_res.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:get/get.dart';
+import 'package:jsc_barbershop/utils/asset_res.dart';
+import 'package:jsc_barbershop/utils/color_res.dart';
+import 'package:jsc_barbershop/utils/style_res.dart';
 
 class AppLogo extends StatelessWidget {
   final Color? textColor;
@@ -18,28 +18,11 @@ class AppLogo extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Wrap(
-      children: [
-        Text(
-          AppLocalizations.of(context)!.appName.toUpperCase(),
-          style: TextStyle(
-            color: textColor ?? ColorRes.white,
-            fontFamily: AssetRes.fnGilroyBlack,
-            fontSize: textSize ?? 22,
-          ),
-        ),
-        const SizedBox(
-          width: 10,
-        ),
-        Text(
-          AppLocalizations.of(context)!.salon.toUpperCase(),
-          style: TextStyle(
-            color: textColor ?? ColorRes.white,
-            fontFamily: AssetRes.fnGilroyLight,
-            fontSize: textSize ?? 22,
-          ),
-        ),
-      ],
+    return const Image(
+      image: AssetImage(AssetRes.logo),
+      fit: BoxFit.scaleDown,
+      height: double.infinity,
+      width: double.infinity,
     );
   }
 }

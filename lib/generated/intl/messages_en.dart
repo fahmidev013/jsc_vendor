@@ -38,7 +38,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "addService": MessageLookupByLibrary.simpleMessage("Tambah layanan"),
         "addSlot": MessageLookupByLibrary.simpleMessage("Add Slot"),
         "addStaff": MessageLookupByLibrary.simpleMessage("Tambah Staf"),
-        "appName": MessageLookupByLibrary.simpleMessage("JSC Mitra"),
+        "appName": MessageLookupByLibrary.simpleMessage("JSC Mitra Online"),
         "appointments":
             MessageLookupByLibrary.simpleMessage("Jadwal Tatap muka"),
         "apr": MessageLookupByLibrary.simpleMessage("Apr"),
@@ -170,7 +170,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "i": MessageLookupByLibrary.simpleMessage("i"),
         "ifYouHaveAddedOnly2SlotsForMondayThen":
             MessageLookupByLibrary.simpleMessage(
-                "Jika menambahkan 2 slot di hari Senin  If you have added only 2 slots for Monday, pelanggan dapat memilih salah satu dari 2 slot di hari itu"),
+                "Jika menambahkan 2 slot di hari Senin  Jika anda menambahkan 2 slot di hari Senin, pelanggan dapat memilih salah satu dari 2 slot di hari itu"),
         "ifYouKeepThisOptionOnCustomersCanChooseTheir":
             MessageLookupByLibrary.simpleMessage(
                 "Jika mengaktifkan fitur ini, pelanggan memberikan alamat dan anda harus menyelesaikan orderan di tempat pelanggan."),
@@ -333,7 +333,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "pleaseenteroldpassword":
             MessageLookupByLibrary.simpleMessage("Please Enter Old Password"),
         "premiumBeautyServices":
-            MessageLookupByLibrary.simpleMessage("Kapster Booking Online"),
+            MessageLookupByLibrary.simpleMessage("JSC Online Barbershop"),
         "prepaid": MessageLookupByLibrary.simpleMessage("Pre-Paid"),
         "price": MessageLookupByLibrary.simpleMessage("Harga"),
         "privacyPolicy":
@@ -357,7 +357,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "requestID": MessageLookupByLibrary.simpleMessage("Request ID"),
         "requests": MessageLookupByLibrary.simpleMessage("Permintaan"),
         "reviews": MessageLookupByLibrary.simpleMessage("Ulasan"),
-        "salon": MessageLookupByLibrary.simpleMessage("Kapster"),
+        "salon": MessageLookupByLibrary.simpleMessage("Barbershop"),
         "salonAddress": MessageLookupByLibrary.simpleMessage("Alamat Kapster"),
         "salonImages": MessageLookupByLibrary.simpleMessage("Foto Kapster"),
         "salonLocation": MessageLookupByLibrary.simpleMessage("Lokasi Kapster"),
@@ -406,7 +406,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "statement": MessageLookupByLibrary.simpleMessage("Laporan"),
         "subTotal": MessageLookupByLibrary.simpleMessage("Subtotal"),
         "submissionSuccessful":
-            MessageLookupByLibrary.simpleMessage("Submission Successful"),
+            MessageLookupByLibrary.simpleMessage("Pendaftaran Berhasil"),
         "submit": MessageLookupByLibrary.simpleMessage("Kirim"),
         "swiftCode": MessageLookupByLibrary.simpleMessage("Swift Code"),
         "termsOfUse": MessageLookupByLibrary.simpleMessage("Syarat Penggunaan"),

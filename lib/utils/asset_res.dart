@@ -1,5 +1,6 @@
 class AssetRes {
   static const String bg1 = 'images/bg_1.png';
+  static const String logo = 'images/logo_transparent.png';
   static const String icCalender = 'images/ic_calender.png';
   static const String icApple = 'images/ic_apple.png';
   static const String icGoogle = 'images/ic_google.png';
