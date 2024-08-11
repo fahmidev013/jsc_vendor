@@ -1,3 +1,7 @@
+import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:get/get.dart';
 import 'package:jsc_barbershop/bloc/mysalon/my_salon_bloc.dart';
 import 'package:jsc_barbershop/model/user/salon.dart';
 import 'package:jsc_barbershop/screens/main/main_screen.dart';
@@ -14,12 +18,6 @@ import 'package:jsc_barbershop/utils/color_res.dart';
 import 'package:jsc_barbershop/utils/const_res.dart';
 import 'package:jsc_barbershop/utils/custom/custom_widget.dart';
 import 'package:jsc_barbershop/utils/style_res.dart';
-import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_branch_sdk/flutter_branch_sdk.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
-import 'package:get/get.dart';
-import 'package:share_plus/share_plus.dart';
 
 class SalonDetailsScreen extends StatefulWidget {
   const SalonDetailsScreen({super.key});
@@ -226,34 +224,7 @@ class TopBarOfSalonDetails extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.all(8),
               child: BgRoundImageWidget(
-                onTap: () async {
-                  BranchUniversalObject buo = BranchUniversalObject(
-                    canonicalIdentifier: 'flutter/branch',
-                    title: salon?.data?.salonName ?? '',
-                    imageUrl:
-                        '${ConstRes.itemBaseUrl}${salon?.data?.images?[0].image}',
-                    contentDescription: salon?.data?.salonAbout ?? '',
-                    publiclyIndex: true,
-                    locallyIndex: true,
-                    contentMetadata: BranchContentMetaData()
-                      ..addCustomMetadata(ConstRes.salonId_, ConstRes.salonId),
-                  );
-                  BranchLinkProperties lp = BranchLinkProperties(
-                      channel: 'facebook',
-                      feature: 'sharing',
-                      stage: 'new share',
-                      tags: ['one', 'two', 'three']);
-                  // lp.addControlParam('url', 'http://www.google.com');
-                  // lp.addControlParam('url2', 'http://flutter.dev');
-                  BranchResponse response = await FlutterBranchSdk.getShortUrl(
-                      buo: buo, linkProperties: lp);
-                  if (response.success) {
-                    Share.share(
-                      'Check out this Profile ${response.result}',
-                      subject: 'Look ${salon?.data?.salonName}',
-                    );
-                  } else {}
-                },
+                onTap: () {},
                 image: AssetRes.icShare,
                 imagePadding: 8,
                 imageColor: !toolbarIsExpand ? ColorRes.mortar : ColorRes.white,

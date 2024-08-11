@@ -248,7 +248,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "payoutHistory":
             MessageLookupByLibrary.simpleMessage("Riwayat Pembayaran"),
         "payoutReject": MessageLookupByLibrary.simpleMessage("PayoutReject"),
-        "payouts": MessageLookupByLibrary.simpleMessage("Pembayaran"),
+        "payouts": MessageLookupByLibrary.simpleMessage("Pencairan"),
         "photoShouldBeClear":
             MessageLookupByLibrary.simpleMessage("Foto harus jelas"),
         "placeBooking": MessageLookupByLibrary.simpleMessage("Place Booking"),

@@ -1137,10 +1137,10 @@ class S {
     );
   }
 
-  /// `Pembayaran`
+  /// `Pencairan`
   String get payouts {
     return Intl.message(
-      'Pembayaran',
+      'Pencairan',
       name: 'payouts',
       desc: '',
       args: [],

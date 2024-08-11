@@ -1,3 +1,5 @@
+import 'package:flutter/material.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:jsc_barbershop/model/staff/staff.dart';
 import 'package:jsc_barbershop/service/api_service.dart';
 import 'package:jsc_barbershop/utils/app_res.dart';
@@ -6,8 +8,6 @@ import 'package:jsc_barbershop/utils/color_res.dart';
 import 'package:jsc_barbershop/utils/const_res.dart';
 import 'package:jsc_barbershop/utils/custom/custom_widget.dart';
 import 'package:jsc_barbershop/utils/style_res.dart';
-import 'package:flutter/material.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class SalonStaffPage extends StatefulWidget {
   const SalonStaffPage({super.key});
@@ -49,18 +49,7 @@ class _SalonStaffPageState extends State<SalonStaffPage> {
           )
         : staffs.isEmpty
             ? const Center(child: DataNotFound())
-            : ListView.builder(
-                padding: const EdgeInsets.symmetric(
-                  horizontal: 10,
-                ),
-                itemCount: staffs.length,
-                itemBuilder: (context, index) {
-                  return ItemStaff(
-                    staffData: staffs[index],
-                    isSelected: false,
-                  );
-                },
-              );
+            : const Center(child: DataNotFound());
   }
 }
 

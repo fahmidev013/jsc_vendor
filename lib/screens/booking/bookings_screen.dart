@@ -1,9 +1,14 @@
 import 'dart:ui';
 
+import 'package:dotted_border/dotted_border.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:get/get.dart';
+import 'package:intl/intl.dart';
 import 'package:jsc_barbershop/bloc/bookings/bookings_bloc.dart';
 import 'package:jsc_barbershop/model/bookings/booking.dart';
 import 'package:jsc_barbershop/screens/booking/widget/bookings_top.dart';
-import 'package:jsc_barbershop/screens/qrScan/qr_scan_screen.dart';
 import 'package:jsc_barbershop/screens/requestDetails/request_detail_screen.dart';
 import 'package:jsc_barbershop/utils/app_res.dart';
 import 'package:jsc_barbershop/utils/asset_res.dart';
@@ -11,12 +16,6 @@ import 'package:jsc_barbershop/utils/color_res.dart';
 import 'package:jsc_barbershop/utils/const_res.dart';
 import 'package:jsc_barbershop/utils/custom/custom_widget.dart';
 import 'package:jsc_barbershop/utils/style_res.dart';
-import 'package:dotted_border/dotted_border.dart';
-import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
-import 'package:get/get.dart';
-import 'package:intl/intl.dart';
 import 'package:table_calendar/table_calendar.dart';
 
 class BookingsScreen extends StatelessWidget {
@@ -29,7 +28,7 @@ class BookingsScreen extends StatelessWidget {
       child: Scaffold(
         floatingActionButton: FloatingActionButton(
           onPressed: () {
-            Get.dialog(const QrScanScreen());
+            // Get.dialog(const QrScanScreen());
           },
           backgroundColor: ColorRes.themeColor,
           shape: RoundedRectangleBorder(
@@ -361,14 +360,7 @@ class BookingsScreen extends StatelessWidget {
                     builder: (context, state) {
                       if (state is DateSelectBookingState) {
                         return state.list.isNotEmpty
-                            ? ListView.builder(
-                                itemCount: state.list.length,
-                                padding: const EdgeInsets.all(0),
-                                itemBuilder: (context, index) {
-                                  BookingData data = state.list[index];
-                                  return ItemBookings(data);
-                                },
-                              )
+                            ? const Center(child: DataNotFound())
                             : const Center(child: DataNotFound());
                       }
                       return const Center(

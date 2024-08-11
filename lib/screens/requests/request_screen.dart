@@ -1,3 +1,7 @@
+import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:get/get.dart';
 import 'package:jsc_barbershop/bloc/requests/request_bloc.dart';
 import 'package:jsc_barbershop/model/bookings/booking.dart';
 import 'package:jsc_barbershop/screens/requestDetails/request_detail_screen.dart';
@@ -6,10 +10,6 @@ import 'package:jsc_barbershop/utils/color_res.dart';
 import 'package:jsc_barbershop/utils/const_res.dart';
 import 'package:jsc_barbershop/utils/custom/custom_widget.dart';
 import 'package:jsc_barbershop/utils/style_res.dart';
-import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
-import 'package:get/get.dart';
 
 class RequestScreen extends StatelessWidget {
   const RequestScreen({super.key});
@@ -41,23 +41,7 @@ class RequestScreen extends StatelessWidget {
             child: BlocBuilder<RequestBloc, RequestState>(
               builder: (context, state) {
                 if (state is FetchedRequestState) {
-                  return state.requests.isNotEmpty
-                      ? ListView.builder(
-                          padding: const EdgeInsets.only(top: 10),
-                          itemCount: state.requests.length,
-                          itemBuilder: (context, index) {
-                            BookingData data = state.requests[index];
-                            return ItemBookingRequest(
-                              data: data,
-                              onUpdate: () {
-                                context
-                                    .read<RequestBloc>()
-                                    .add(GetRequestsEvent());
-                              },
-                            );
-                          },
-                        )
-                      : const Center(child: DataNotFound());
+                  return const Center(child: DataNotFound());
                 }
                 return const Center(child: LoadingData());
               },

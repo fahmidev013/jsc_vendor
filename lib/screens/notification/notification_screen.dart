@@ -1,11 +1,10 @@
-import 'package:jsc_barbershop/bloc/notification/notification_bloc.dart';
-import 'package:jsc_barbershop/model/notification/notification.dart';
-import 'package:jsc_barbershop/utils/color_res.dart';
-import 'package:jsc_barbershop/utils/custom/custom_widget.dart';
-import 'package:jsc_barbershop/utils/style_res.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:jsc_barbershop/bloc/notification/notification_bloc.dart';
+import 'package:jsc_barbershop/utils/color_res.dart';
+import 'package:jsc_barbershop/utils/custom/custom_widget.dart';
+import 'package:jsc_barbershop/utils/style_res.dart';
 
 class NotificationScreen extends StatelessWidget {
   const NotificationScreen({super.key});
@@ -43,47 +42,7 @@ class NotificationScreen extends StatelessWidget {
                         child: LoadingData(),
                       )
                     : notificationBloc.notifications.isNotEmpty
-                        ? ListView.builder(
-                            padding: const EdgeInsets.symmetric(
-                                horizontal: 15, vertical: 10),
-                            itemCount: notificationBloc.notifications.length,
-                            controller: notificationBloc.scrollController,
-                            itemBuilder: (context, index) {
-                              Data notificationData =
-                                  notificationBloc.notifications[index];
-                              return Column(
-                                crossAxisAlignment: CrossAxisAlignment.start,
-                                children: [
-                                  const SizedBox(
-                                    height: 10,
-                                  ),
-                                  Text(
-                                    notificationData.title ?? '',
-                                    style: kRegularTextStyle.copyWith(
-                                      fontSize: 16,
-                                    ),
-                                  ),
-                                  const SizedBox(
-                                    height: 5,
-                                  ),
-                                  Text(
-                                    notificationData.description ?? '',
-                                    style: kLightWhiteTextStyle.copyWith(
-                                      color: ColorRes.empress,
-                                      fontSize: 14,
-                                    ),
-                                  ),
-                                  const SizedBox(
-                                    height: 15,
-                                  ),
-                                  Container(
-                                    color: ColorRes.empress,
-                                    height: 0.2,
-                                  ),
-                                ],
-                              );
-                            },
-                          )
+                        ? const DataNotFound()
                         : const DataNotFound();
               },
             ),

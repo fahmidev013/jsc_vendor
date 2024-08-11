@@ -1,10 +1,11 @@
-import 'package:jsc_barbershop/bloc/messageuser/message_user_bloc.dart';
-import 'package:jsc_barbershop/screens/message/messages_list_widget.dart';
-import 'package:jsc_barbershop/utils/color_res.dart';
-import 'package:jsc_barbershop/utils/style_res.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:jsc_barbershop/bloc/messageuser/message_user_bloc.dart';
+import 'package:jsc_barbershop/utils/color_res.dart';
+import 'package:jsc_barbershop/utils/style_res.dart';
+
+import '../../utils/custom/custom_widget.dart';
 
 class MessageScreen extends StatelessWidget {
   final Function()? onMenuClick;
@@ -63,7 +64,8 @@ class MessageScreen extends StatelessWidget {
                         },
                       ),
                     ),
-                    const MessagesListWidget(),
+                    const Center(child: DataNotFound())
+                    // const MessagesListWidget(),
                   ],
                 ),
               );

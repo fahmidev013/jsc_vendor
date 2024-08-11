@@ -1,33 +1,20 @@
-import 'package:jsc_barbershop/model/user/salon.dart';
-import 'package:jsc_barbershop/screens/bookinghistory/booking_history_screen.dart';
-import 'package:jsc_barbershop/screens/changePassword/change_password.dart';
-import 'package:jsc_barbershop/screens/changelanguage/change_language.dart';
-import 'package:jsc_barbershop/screens/earning/earning_screen.dart';
-import 'package:jsc_barbershop/screens/editAvailablity/edit_availablity_screen.dart';
-import 'package:jsc_barbershop/screens/editBank/edit_bank_detail_screen.dart';
-import 'package:jsc_barbershop/screens/editSalon/edit_salon_screen.dart';
-import 'package:jsc_barbershop/screens/help&faq/help_and_faq_screen.dart';
-import 'package:jsc_barbershop/screens/manageAward/manage_award.dart';
-import 'package:jsc_barbershop/screens/manageServices/manage_services.dart';
-import 'package:jsc_barbershop/screens/payoutHistory/payout_history_screen.dart';
-import 'package:jsc_barbershop/screens/staff/manage_staff_screen.dart';
-import 'package:jsc_barbershop/screens/wallet/wallet_screen.dart';
-import 'package:jsc_barbershop/screens/web/web_view_screen.dart';
-import 'package:jsc_barbershop/screens/welcome/welcome_screen.dart';
-import 'package:jsc_barbershop/service/api_service.dart';
-import 'package:jsc_barbershop/utils/app_res.dart';
-import 'package:jsc_barbershop/utils/color_res.dart';
-import 'package:jsc_barbershop/utils/const_res.dart';
-import 'package:jsc_barbershop/utils/custom/custom_bottom_sheet.dart';
-import 'package:jsc_barbershop/utils/custom/custom_dialog.dart';
-import 'package:jsc_barbershop/utils/custom/custom_widget.dart';
-import 'package:jsc_barbershop/utils/shared_pref.dart';
-import 'package:jsc_barbershop/utils/style_res.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:get/get.dart';
+import 'package:jsc_barbershop/model/user/salon.dart';
+import 'package:jsc_barbershop/screens/changePassword/change_password.dart';
+import 'package:jsc_barbershop/screens/editSalon/edit_salon_screen.dart';
+import 'package:jsc_barbershop/screens/welcome/welcome_screen.dart';
+import 'package:jsc_barbershop/service/api_service.dart';
+import 'package:jsc_barbershop/utils/app_res.dart';
+import 'package:jsc_barbershop/utils/color_res.dart';
+import 'package:jsc_barbershop/utils/custom/custom_bottom_sheet.dart';
+import 'package:jsc_barbershop/utils/custom/custom_dialog.dart';
+import 'package:jsc_barbershop/utils/custom/custom_widget.dart';
+import 'package:jsc_barbershop/utils/shared_pref.dart';
+import 'package:jsc_barbershop/utils/style_res.dart';
 
 class SettingScreen extends StatefulWidget {
   const SettingScreen({super.key});
@@ -71,58 +58,6 @@ class _SettingScreenState extends State<SettingScreen> {
                       subTitle: AppLocalizations.of(context)!
                           .keepItOnIfYouWantToReceiveNotifications,
                       isActive: salonData?.isNotification == 1,
-                      onToggleChange: (isActive) async {
-                        await ApiService().updateSalonDetails(
-                            salonId: ConstRes.salonId,
-                            isNotification: isActive);
-                        setData();
-                      },
-                    ),
-                    const SizedBox(
-                      height: 3,
-                    ),
-                    ItemSettingToggleWidget(
-                      title: AppLocalizations.of(context)!.vacationMode,
-                      subTitle: AppLocalizations.of(context)!
-                          .keepingItOffYourSalonAndServicesWillNotBeShownToTheCustomerUntilTurnedOn,
-                      isActive: salonData?.onVacation == 1,
-                      onToggleChange: (isActive) async {
-                        await ApiService().updateSalonDetails(
-                            salonId: ConstRes.salonId, onVacation: isActive);
-                        setData();
-                      },
-                    ),
-                    const SizedBox(
-                      height: 3,
-                    ),
-                    ItemSettingToggleWidget(
-                      title:
-                          AppLocalizations.of(context)!.serveAtCustomerAddress,
-                      subTitle: AppLocalizations.of(context)!
-                          .ifYouKeepThisOptionOnCustomersCanChooseTheir,
-                      isActive: salonData?.isServeOutside == 1,
-                      onToggleChange: (isActive) async {
-                        await ApiService().updateSalonDetails(
-                            salonId: ConstRes.salonId,
-                            isServeOutSide: isActive);
-                        setData();
-                      },
-                    ),
-                    const SizedBox(
-                      height: 3,
-                    ),
-                    ItemSettingToggleWidget(
-                      title: AppLocalizations.of(context)!
-                          .offerPayAfterServiceOption,
-                      subTitle: AppLocalizations.of(context)!
-                          .ifYouKeepThisOptionOnCustomersCanChooseTo,
-                      isActive: salonData?.isPayAfterService == 1,
-                      onToggleChange: (isActive) async {
-                        await ApiService().updateSalonDetails(
-                            salonId: ConstRes.salonId,
-                            isPayAfterService: isActive);
-                        setData();
-                      },
                     ),
                     const SizedBox(
                       height: 10,
@@ -135,15 +70,8 @@ class _SettingScreenState extends State<SettingScreen> {
                       height: 3,
                     ),
                     ItemSettingWidget(
-                      title: AppLocalizations.of(context)!.manageStaff,
-                      onTap: () => Get.to(() => const ManageStaffScreen()),
-                    ),
-                    const SizedBox(
-                      height: 3,
-                    ),
-                    ItemSettingWidget(
                       title: AppLocalizations.of(context)!.editBankDetails,
-                      onTap: () => Get.to(() => const EditBankDetailScreen()),
+                      onTap: () => {},
                     ),
                     const SizedBox(
                       height: 3,
@@ -151,85 +79,47 @@ class _SettingScreenState extends State<SettingScreen> {
                     ItemSettingWidget(
                       title:
                           AppLocalizations.of(context)!.editAvailabilitySlots,
-                      onTap: () => Get.to(() => const EditAvailabilityScreen()),
+                      onTap: () => {},
                     ),
                     const SizedBox(
                       height: 3,
                     ),
                     ItemSettingWidget(
-                      title: AppLocalizations.of(context)!.manageServices,
-                      onTap: () => Get.to(() => const ManageServicesScreen()),
-                    ),
+                        title: AppLocalizations.of(context)!.manageServices,
+                        onTap: () => {}),
                     const SizedBox(
                       height: 3,
                     ),
                     ItemSettingWidget(
-                      title: AppLocalizations.of(context)!.manageAwards,
-                      onTap: () => Get.to(() => const ManageAwardScreen()),
-                    ),
-                    const SizedBox(
-                      height: 10,
-                    ),
-                    ItemSettingWidget(
-                      title: AppLocalizations.of(context)!.wallet,
-                      onTap: () => Get.to(() => const WalletScreen()),
-                    ),
-                    const SizedBox(
-                      height: 3,
-                    ),
-                    ItemSettingWidget(
-                      title: AppLocalizations.of(context)!.bookingHistory,
-                      onTap: () => Get.to(() => const BookingHistoryScreen()),
-                    ),
+                        title: AppLocalizations.of(context)!.bookingHistory,
+                        onTap: () => {}),
                     const SizedBox(
                       height: 3,
                     ),
                     ItemSettingWidget(
                       title: AppLocalizations.of(context)!.earningReports,
-                      onTap: () => Get.to(() => const EarningScreen()),
+                      onTap: () => {},
                     ),
                     const SizedBox(
                       height: 3,
                     ),
                     ItemSettingWidget(
                       title: AppLocalizations.of(context)!.payouts,
-                      onTap: () => Get.to(() => const PayoutHistoryScreen()),
+                      onTap: () => {},
                     ),
                     const SizedBox(
                       height: 10,
                     ),
                     ItemSettingWidget(
                       title: AppLocalizations.of(context)!.termsOfUse,
-                      onTap: () {
-                        Get.to(
-                          () => const WebViewScreen(),
-                          arguments: AppLocalizations.of(context)!.termsOfUse,
-                        );
-                      },
+                      onTap: () {},
                     ),
                     const SizedBox(
                       height: 3,
                     ),
                     ItemSettingWidget(
                       title: AppLocalizations.of(context)!.privacyPolicy,
-                      onTap: () {
-                        Get.to(
-                          () => const WebViewScreen(),
-                          arguments:
-                              AppLocalizations.of(context)!.privacyPolicy,
-                        );
-                      },
-                    ),
-                    const SizedBox(
-                      height: 3,
-                    ),
-                    ItemSettingWidget(
-                      title: AppLocalizations.of(context)!.changeLanguage,
-                      onTap: () {
-                        Get.to(
-                          () => const ChangeLanguageScreen(),
-                        );
-                      },
+                      onTap: () {},
                     ),
                     const SizedBox(
                       height: 3,
@@ -248,9 +138,7 @@ class _SettingScreenState extends State<SettingScreen> {
                     ),
                     ItemSettingWidget(
                       title: AppLocalizations.of(context)!.helpAndFAQ,
-                      onTap: () {
-                        Get.to(() => const HelpFaqScreen());
-                      },
+                      onTap: () {},
                     ),
                     const SizedBox(
                       height: 3,
